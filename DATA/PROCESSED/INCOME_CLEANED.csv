@@ -1,0 +1,205 @@
+Date,Year,ISO Year,Month,Month Label,Week,Week Label,Day,Category,Item,Vendor,Vendor Location,District,Income/Expenses,Amount,Formatted Date,Outlier
+2019-05-27,2019,2019,5,May,22,W22,Monday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,100.0,27/05/2019,False
+2019-05-15,2019,2019,5,May,20,W20,Wednesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,15/05/2019,False
+2019-05-04,2019,2019,5,May,18,W18,Saturday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,04/05/2019,False
+2019-05-01,2019,2019,5,May,18,W18,Wednesday,Last Month's Balance,April's Balance,Blank,Blank,Blank,Income,215.8,01/05/2019,True
+2019-04-21,2019,2019,4,April,16,W16,Sunday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,21/04/2019,False
+2019-04-14,2019,2019,4,April,15,W15,Sunday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,14/04/2019,False
+2019-04-03,2019,2019,4,April,14,W14,Wednesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,03/04/2019,False
+2019-04-01,2019,2019,4,April,14,W14,Monday,Last Month's Balance,March's Balance,Blank,Blank,Blank,Income,115.3,01/04/2019,False
+2019-03-23,2019,2019,3,March,12,W12,Saturday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,100.0,23/03/2019,False
+2019-03-14,2019,2019,3,March,11,W11,Thursday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,14/03/2019,False
+2019-03-02,2019,2019,3,March,9,W9,Saturday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,02/03/2019,False
+2019-03-01,2019,2019,3,March,9,W9,Friday,Last Month's Balance,February's Balance,Blank,Blank,Blank,Income,154.8,01/03/2019,False
+2019-02-23,2019,2019,2,February,8,W8,Saturday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,100.0,23/02/2019,False
+2019-02-05,2019,2019,2,February,6,W6,Tuesday,Others,Others,Blank,Blank,Blank,Income,400.0,05/02/2019,False
+2019-02-01,2019,2019,2,February,5,W5,Friday,Last Month's Balance,January's Balance,Blank,Blank,Blank,Income,94.0,01/02/2019,False
+2019-01-26,2019,2019,1,January,4,W4,Saturday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,100.0,26/01/2019,False
+2019-01-19,2019,2019,1,January,3,W3,Saturday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,19/01/2019,False
+2019-01-05,2019,2019,1,January,1,W1,Saturday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,05/01/2019,False
+2019-01-01,2019,2019,1,January,1,W1,Tuesday,Last Month's Balance,December's Balance,Blank,Blank,Blank,Income,82.4,01/01/2019,False
+2018-12-22,2018,2018,12,December,51,W51,Saturday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,100.0,22/12/2018,False
+2018-12-09,2018,2018,12,December,49,W49,Sunday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,09/12/2018,False
+2018-12-01,2018,2018,12,December,48,W48,Saturday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,01/12/2018,False
+2018-12-01,2018,2018,12,December,48,W48,Saturday,Last Month's Balance,November's Balance,Blank,Blank,Blank,Income,121.2,01/12/2018,False
+2018-11-17,2018,2018,11,November,46,W46,Saturday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,17/11/2018,False
+2018-11-03,2018,2018,11,November,44,W44,Saturday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,03/11/2018,False
+2018-11-01,2018,2018,11,November,44,W44,Thursday,Last Month's Balance,October's Balance,Blank,Blank,Blank,Income,92.65,01/11/2018,False
+2018-10-28,2018,2018,10,October,43,W43,Sunday,Cash Withdrawal,Cash Withdrawal + Current Balance,Blank,Blank,Blank,Income,180.0,28/10/2018,False
+2020-07-20,2020,2020,7,July,30,W30,Monday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,20/07/2020,False
+2020-07-01,2020,2020,7,July,27,W27,Wednesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,01/07/2020,False
+2020-07-01,2020,2020,7,July,27,W27,Wednesday,Balance from Previous Month,June's Balance,Blank,Blank,Blank,Income,111.0,01/07/2020,False
+2020-06-22,2020,2020,6,June,26,W26,Monday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,22/06/2020,False
+2020-06-01,2020,2020,6,June,23,W23,Monday,Balance from Previous Month,May's Balance,Blank,Blank,Blank,Income,240.1,01/06/2020,False
+2020-05-25,2020,2020,5,May,22,W22,Monday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,25/05/2020,False
+2020-05-01,2020,2020,5,May,18,W18,Friday,Balance from Previous Month,April's Balance,Blank,Blank,Blank,Income,263.1,01/05/2020,False
+2020-04-25,2020,2020,4,April,17,W17,Saturday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,25/04/2020,False
+2020-04-01,2020,2020,4,April,14,W14,Wednesday,Balance from Previous Month,March's Balance,Blank,Blank,Blank,Income,341.4,01/04/2020,False
+2020-03-31,2020,2020,3,March,14,W14,Tuesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,31/03/2020,False
+2020-03-19,2020,2020,3,March,12,W12,Thursday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,19/03/2020,False
+2020-03-11,2020,2020,3,March,11,W11,Wednesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,11/03/2020,False
+2020-03-01,2020,2020,3,March,9,W9,Sunday,Balance from Previous Month,February's Balance,Blank,Blank,Blank,Income,271.4,01/03/2020,False
+2020-02-27,2020,2020,2,February,9,W9,Thursday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,27/02/2020,False
+2020-02-02,2020,2020,2,February,5,W5,Sunday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,02/02/2020,False
+2020-02-01,2020,2020,2,February,5,W5,Saturday,Balance from Previous Month,January's Balance,Blank,Blank,Blank,Income,430.0,01/02/2020,False
+2020-01-25,2020,2020,1,January,4,W4,Saturday,Others,Others,Blank,Blank,Blank,Income,400.0,25/01/2020,False
+2020-01-10,2020,2020,1,January,2,W2,Friday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,10/01/2020,False
+2020-01-01,2020,2020,1,January,1,W1,Wednesday,Balance from Previous Month,January's Balance,Blank,Blank,Blank,Income,307.9,01/01/2020,False
+2019-12-21,2019,2019,12,December,51,W51,Saturday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,21/12/2019,False
+2019-12-08,2019,2019,12,December,49,W49,Sunday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,08/12/2019,False
+2019-12-01,2019,2019,12,December,48,W48,Sunday,Balance from Previous Month,November's Balance,Blank,Blank,Blank,Income,288.2,01/12/2019,False
+2019-11-30,2019,2019,11,November,48,W48,Saturday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,100.0,30/11/2019,False
+2019-11-19,2019,2019,11,November,47,W47,Tuesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,19/11/2019,False
+2019-11-09,2019,2019,11,November,45,W45,Saturday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,09/11/2019,False
+2019-11-01,2019,2019,11,November,44,W44,Friday,Balance from Previous Month,October's Balance,Blank,Blank,Blank,Income,258.0,01/11/2019,False
+2019-10-23,2019,2019,10,October,43,W43,Wednesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,23/10/2019,False
+2019-10-16,2019,2019,10,October,42,W42,Wednesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,16/10/2019,False
+2019-10-08,2019,2019,10,October,41,W41,Tuesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,08/10/2019,False
+2019-10-01,2019,2019,10,October,40,W40,Tuesday,Balance from Previous Month,September's Balance,Blank,Blank,Blank,Income,220.0,01/10/2019,False
+2019-09-25,2019,2019,9,September,39,W39,Wednesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,25/09/2019,False
+2019-09-14,2019,2019,9,September,37,W37,Saturday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,100.0,14/09/2019,False
+2019-09-09,2019,2019,9,September,37,W37,Monday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,09/09/2019,False
+2019-09-01,2019,2019,9,September,35,W35,Sunday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,01/09/2019,False
+2019-09-01,2019,2019,9,September,35,W35,Sunday,Balance from Previous Month,August's Balance,Blank,Blank,Blank,Income,87.9,01/09/2019,False
+2019-08-29,2019,2019,8,August,35,W35,Thursday,Balance from Previous Month,May's Balance,Blank,Blank,Blank,Income,118.3,29/08/2019,False
+2019-08-29,2019,2019,8,August,35,W35,Thursday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,100.0,29/08/2019,False
+2021-07-17,2021,2021,7,July,28,W28,Saturday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,17/07/2021,False
+2021-07-03,2021,2021,7,July,26,W26,Saturday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,03/07/2021,False
+2021-07-01,2021,2021,7,July,26,W26,Thursday,Balance from Previous Month,June's Balance,Blank,Blank,Blank,Income,46.0,01/07/2021,False
+2021-06-08,2021,2021,6,June,23,W23,Tuesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,08/06/2021,False
+2021-06-01,2021,2021,6,June,22,W22,Tuesday,Balance from Previous Month,May's Balance,Blank,Blank,Blank,Income,103.6,01/06/2021,False
+2021-05-13,2021,2021,5,May,19,W19,Thursday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,13/05/2021,False
+2021-05-01,2021,2021,5,May,17,W17,Saturday,Balance from Previous Month,April's Balance,Blank,Blank,Blank,Income,161.1,01/05/2021,False
+2021-04-27,2021,2021,4,April,17,W17,Tuesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,27/04/2021,False
+2021-04-01,2021,2021,4,April,13,W13,Thursday,Balance from Previous Month,March's Balance,Blank,Blank,Blank,Income,381.5,01/04/2021,False
+2021-03-31,2021,2021,3,March,13,W13,Wednesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,31/03/2021,False
+2021-03-19,2021,2021,3,March,11,W11,Friday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,19/03/2021,False
+2021-03-01,2021,2021,3,March,9,W9,Monday,Balance from Previous Month,February's Balance,Blank,Blank,Blank,Income,432.1,01/03/2021,False
+2021-02-22,2021,2021,2,February,8,W8,Monday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,22/02/2021,False
+2021-02-12,2021,2021,2,February,6,W6,Friday,Others,Others,Blank,Blank,Blank,Income,80.0,12/02/2021,False
+2021-02-10,2021,2021,2,February,6,W6,Wednesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,10/02/2021,False
+2021-02-01,2021,2021,2,February,5,W5,Monday,Balance from Previous Month,January's Balance,Blank,Blank,Blank,Income,300.7,01/02/2021,False
+2021-01-30,2021,2021,1,January,4,W4,Saturday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,30/01/2021,False
+2021-01-10,2021,2021,1,January,1,W1,Sunday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,10/01/2021,False
+2021-01-01,2021,2020,1,January,53,W53,Friday,Balance from Previous Month,December's Balance,Blank,Blank,Blank,Income,223.9,01/01/2021,False
+2020-12-27,2020,2020,12,December,52,W52,Sunday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,27/12/2020,False
+2020-12-15,2020,2020,12,December,51,W51,Tuesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,15/12/2020,False
+2020-12-01,2020,2020,12,December,49,W49,Tuesday,Balance from Previous Month,November's Balance,Blank,Blank,Blank,Income,240.6,01/12/2020,False
+2020-11-21,2020,2020,11,November,47,W47,Saturday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,21/11/2020,False
+2020-11-05,2020,2020,11,November,45,W45,Thursday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,05/11/2020,False
+2020-11-01,2020,2020,11,November,44,W44,Sunday,Balance from Previous Month,October's Balance,Blank,Blank,Blank,Income,128.7,01/11/2020,False
+2020-10-15,2020,2020,10,October,42,W42,Thursday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,15/10/2020,False
+2020-10-06,2020,2020,10,October,41,W41,Tuesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,06/10/2020,False
+2020-10-01,2020,2020,10,October,40,W40,Thursday,Balance from Previous Month,September's Balance,Blank,Blank,Blank,Income,121.8,01/10/2020,False
+2020-09-17,2020,2020,9,September,38,W38,Thursday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,17/09/2020,False
+2020-09-01,2020,2020,9,September,36,W36,Tuesday,Balance from Previous Month,August's Balance,Blank,Blank,Blank,Income,320.7,01/09/2020,False
+2020-08-27,2020,2020,8,August,35,W35,Thursday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,27/08/2020,False
+2020-08-15,2020,2020,8,August,33,W33,Saturday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,15/08/2020,False
+2020-08-01,2020,2020,8,August,31,W31,Saturday,Balance from Previous Month,July's Balance,Blank,Blank,Blank,Income,218.2,01/08/2020,False
+2022-07-20,2022,2022,7,July,29,W29,Wednesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,20/07/2022,False
+2022-07-07,2022,2022,7,July,27,W27,Thursday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,07/07/2022,False
+2022-07-01,2022,2022,7,July,26,W26,Friday,Balance from Previous Month,June's Balance,Blank,Blank,Blank,Income,200.0,01/07/2022,False
+2022-06-27,2022,2022,6,June,26,W26,Monday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,100.0,27/06/2022,False
+2022-06-20,2022,2022,6,June,25,W25,Monday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,20/06/2022,False
+2022-06-02,2022,2022,6,June,22,W22,Thursday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,02/06/2022,False
+2022-06-01,2022,2022,6,June,22,W22,Wednesday,Balance from Previous Month,May's Balance,Blank,Blank,Blank,Income,289.5,01/06/2022,False
+2022-05-30,2022,2022,5,May,22,W22,Monday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,100.0,30/05/2022,False
+2022-05-15,2022,2022,5,May,19,W19,Sunday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,15/05/2022,False
+2022-05-09,2022,2022,5,May,19,W19,Monday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,09/05/2022,False
+2022-05-01,2022,2022,5,May,17,W17,Sunday,Balance from Previous Month,April's Balance,Blank,Blank,Blank,Income,320.6,01/05/2022,False
+2022-04-21,2022,2022,4,April,16,W16,Thursday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,200.0,21/04/2022,False
+2022-04-03,2022,2022,4,April,13,W13,Sunday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,03/04/2022,False
+2022-04-02,2022,2022,4,April,13,W13,Saturday,Others,Others,Blank,Blank,Blank,Income,400.0,02/04/2022,False
+2022-04-01,2022,2022,4,April,13,W13,Friday,Balance from Previous Month,March's Balance,Blank,Blank,Blank,Income,199.1,01/04/2022,False
+2022-03-29,2022,2022,3,March,13,W13,Tuesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,100.0,29/03/2022,False
+2022-03-16,2022,2022,3,March,11,W11,Wednesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,16/03/2022,False
+2022-03-03,2022,2022,3,March,9,W9,Thursday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,03/03/2022,False
+2022-03-01,2022,2022,3,March,9,W9,Tuesday,Balance from Previous Month,February's Balance,Blank,Blank,Blank,Income,199.5,01/03/2022,False
+2022-02-28,2022,2022,2,February,9,W9,Monday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,100.0,28/02/2022,False
+2022-02-22,2022,2022,2,February,8,W8,Tuesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,22/02/2022,False
+2022-02-09,2022,2022,2,February,6,W6,Wednesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,09/02/2022,False
+2022-02-01,2022,2022,2,February,5,W5,Tuesday,Balance from Previous Month,January's Balance,Blank,Blank,Blank,Income,225.5,01/02/2022,False
+2022-01-24,2022,2022,1,January,4,W4,Monday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,24/01/2022,False
+2022-01-03,2022,2022,1,January,1,W1,Monday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,03/01/2022,False
+2022-01-01,2022,2021,1,January,52,W52,Saturday,Balance from Previous Month,December's Balance,Blank,Blank,Blank,Income,283.0,01/01/2022,False
+2021-12-19,2021,2021,12,December,50,W50,Sunday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,19/12/2021,False
+2021-12-10,2021,2021,12,December,49,W49,Friday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,10/12/2021,False
+2021-12-01,2021,2021,12,December,48,W48,Wednesday,Balance from Previous Month,November's Balance,Blank,Blank,Blank,Income,411.9,01/12/2021,False
+2021-11-28,2021,2021,11,November,47,W47,Sunday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,28/11/2021,False
+2021-11-11,2021,2021,11,November,45,W45,Thursday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,11/11/2021,False
+2021-11-01,2021,2021,11,November,44,W44,Monday,Balance from Previous Month,October's Balance,Blank,Blank,Blank,Income,307.6,01/11/2021,False
+2021-10-19,2021,2021,10,October,42,W42,Tuesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,19/10/2021,False
+2021-10-08,2021,2021,10,October,40,W40,Friday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,08/10/2021,False
+2021-10-01,2021,2021,10,October,39,W39,Friday,Balance from Previous Month,September's Balance,Blank,Blank,Blank,Income,130.4,01/10/2021,False
+2021-09-20,2021,2021,9,September,38,W38,Monday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,20/09/2021,False
+2021-09-05,2021,2021,9,September,35,W35,Sunday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,05/09/2021,False
+2021-09-01,2021,2021,9,September,35,W35,Wednesday,Balance from Previous Month,August's Balance,Blank,Blank,Blank,Income,20.7,01/09/2021,False
+2021-08-16,2021,2021,8,August,33,W33,Monday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,16/08/2021,False
+2021-08-07,2021,2021,8,August,31,W31,Saturday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,07/08/2021,False
+2021-08-01,2021,2021,8,August,30,W30,Sunday,Balance from Previous Month,July's Balance,Blank,Blank,Blank,Income,58.7,01/08/2021,False
+2023-07-19,2023,2023,7,July,29,W29,Wednesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,19/07/2023,False
+2023-07-10,2023,2023,7,July,28,W28,Monday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,10/07/2023,False
+2023-07-01,2023,2023,7,July,26,W26,Saturday,Balance from Previous Month,June's Balance,Blank,Blank,Blank,Income,175.4,01/07/2023,False
+2023-06-30,2023,2023,6,June,26,W26,Friday,Balance Adjustment,Balance Adjustment,Blank,Blank,Blank,Income,100.0,30/06/2023,False
+2023-06-21,2023,2023,6,June,25,W25,Wednesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,21/06/2023,False
+2023-06-11,2023,2023,6,June,23,W23,Sunday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,11/06/2023,False
+2023-06-01,2023,2023,6,June,22,W22,Thursday,Balance from Previous Month,May's Balance,Blank,Blank,Blank,Income,164.1,01/06/2023,False
+2023-05-31,2023,2023,5,May,22,W22,Wednesday,Balance Adjustment,Balance Adjustment,Blank,Blank,Blank,Income,100.0,31/05/2023,False
+2023-05-28,2023,2023,5,May,21,W21,Sunday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,28/05/2023,False
+2023-05-11,2023,2023,5,May,19,W19,Thursday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,11/05/2023,False
+2023-05-01,2023,2023,5,May,18,W18,Monday,Balance from Previous Month,April's Balance,Blank,Blank,Blank,Income,121.1,01/05/2023,False
+2023-04-30,2023,2023,4,April,17,W17,Sunday,Balance Adjustment,Balance Adjustment,Blank,Blank,Blank,Income,100.0,30/04/2023,False
+2023-04-19,2023,2023,4,April,16,W16,Wednesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,19/04/2023,False
+2023-04-09,2023,2023,4,April,14,W14,Sunday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,09/04/2023,False
+2023-04-01,2023,2023,4,April,13,W13,Saturday,Balance from Previous Month,March's Balance,Blank,Blank,Blank,Income,172.9,01/04/2023,False
+2023-03-31,2023,2023,3,March,13,W13,Friday,Balance Adjustment,Balance Adjustment,Blank,Blank,Blank,Income,200.0,31/03/2023,False
+2023-03-22,2023,2023,3,March,12,W12,Wednesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,22/03/2023,False
+2023-03-13,2023,2023,3,March,11,W11,Monday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,13/03/2023,False
+2023-03-01,2023,2023,3,March,9,W9,Wednesday,Balance from Previous Month,February's Balance,Blank,Blank,Blank,Income,146.2,01/03/2023,False
+2023-02-28,2023,2023,2,February,9,W9,Tuesday,Balance Adjustment,Balance Adjustment,Blank,Blank,Blank,Income,200.0,28/02/2023,False
+2023-02-26,2023,2023,2,February,8,W8,Sunday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,26/02/2023,False
+2023-02-10,2023,2023,2,February,6,W6,Friday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,10/02/2023,False
+2023-02-01,2023,2023,2,February,5,W5,Wednesday,Balance from Previous Month,January's Balance,Blank,Blank,Blank,Income,123.0,01/02/2023,False
+2023-01-31,2023,2023,1,January,5,W5,Tuesday,Balance Adjustment,Balance Adjustment,Blank,Blank,Blank,Income,100.0,31/01/2023,False
+2023-01-20,2023,2023,1,January,3,W3,Friday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,20/01/2023,False
+2023-01-07,2023,2023,1,January,1,W1,Saturday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,07/01/2023,False
+2023-01-01,2023,2022,1,January,52,W52,Sunday,Balance from Previous Month,December's Balance,Blank,Blank,Blank,Income,216.4,01/01/2023,False
+2022-12-13,2022,2022,12,December,50,W50,Tuesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,13/12/2022,False
+2022-12-02,2022,2022,12,December,48,W48,Friday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,02/12/2022,False
+2022-12-01,2022,2022,12,December,48,W48,Thursday,Balance from Previous Month,November's Balance,Blank,Blank,Blank,Income,108.2,01/12/2022,False
+2022-11-30,2022,2022,11,November,48,W48,Wednesday,Balance Adjustment,Balance Adjustment,Blank,Blank,Blank,Income,100.0,30/11/2022,False
+2022-11-19,2022,2022,11,November,46,W46,Saturday,Balance Adjustment,Balance Adjustment,Blank,Blank,Blank,Income,100.0,19/11/2022,False
+2022-11-14,2022,2022,11,November,46,W46,Monday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,14/11/2022,False
+2022-11-02,2022,2022,11,November,44,W44,Wednesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,02/11/2022,False
+2022-11-01,2022,2022,11,November,44,W44,Tuesday,Balance from Previous Month,October's Balance,Blank,Blank,Blank,Income,48.0,01/11/2022,False
+2022-10-20,2022,2022,10,October,42,W42,Thursday,Balance Adjustment,Balance Adjustment,Blank,Blank,Blank,Income,200.0,20/10/2022,False
+2022-10-12,2022,2022,10,October,41,W41,Wednesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,12/10/2022,False
+2022-10-02,2022,2022,10,October,39,W39,Sunday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,02/10/2022,False
+2022-10-01,2022,2022,10,October,39,W39,Saturday,Balance from Previous Month,September's Balance,Blank,Blank,Blank,Income,59.2,01/10/2022,False
+2022-09-30,2022,2022,9,September,39,W39,Friday,Balance Adjustment,Balance Adjustment,Blank,Blank,Blank,Income,200.0,30/09/2022,False
+2022-09-18,2022,2022,9,September,37,W37,Sunday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,18/09/2022,False
+2022-09-08,2022,2022,9,September,36,W36,Thursday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,08/09/2022,False
+2022-09-01,2022,2022,9,September,35,W35,Thursday,Balance from Previous Month,August's Balance,Blank,Blank,Blank,Income,134.3,01/09/2022,False
+2022-08-31,2022,2022,8,August,35,W35,Wednesday,Balance Adjustment,Balance Adjustment,Blank,Blank,Blank,Income,100.0,31/08/2022,False
+2022-08-18,2022,2022,8,August,33,W33,Thursday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,18/08/2022,False
+2022-08-08,2022,2022,8,August,32,W32,Monday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,08/08/2022,False
+2022-08-01,2022,2022,8,August,31,W31,Monday,Balance from Previous Month,July's Balance,Blank,Blank,Blank,Income,172.4,01/08/2022,False
+2023-12-31,2023,2023,12,December,52,W52,Sunday,Balance Adjustment,Balance Adjustment,Blank,Blank,Blank,Income,100.0,31/12/2023,False
+2023-12-13,2023,2023,12,December,50,W50,Wednesday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,13/12/2023,False
+2023-12-04,2023,2023,12,December,49,W49,Monday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,04/12/2023,False
+2023-12-01,2023,2023,12,December,48,W48,Friday,Balance from Previous Month,November's Balance,Blank,Blank,Blank,Income,102.4,01/12/2023,False
+2023-11-30,2023,2023,11,November,48,W48,Thursday,Balance Adjustment,Balance Adjustment,Blank,Blank,Blank,Income,100.0,30/11/2023,False
+2023-11-16,2023,2023,11,November,46,W46,Thursday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,16/11/2023,False
+2023-11-03,2023,2023,11,November,44,W44,Friday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,03/11/2023,False
+2023-11-01,2023,2023,11,November,44,W44,Wednesday,Balance from Previous Month,October's Balance,Blank,Blank,Blank,Income,71.0,01/11/2023,False
+2023-10-31,2023,2023,10,October,44,W44,Tuesday,Balance Adjustment,Balance Adjustment,Blank,Blank,Blank,Income,100.0,31/10/2023,False
+2023-10-16,2023,2023,10,October,42,W42,Monday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,16/10/2023,False
+2023-10-01,2023,2023,10,October,39,W39,Sunday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,01/10/2023,False
+2023-10-01,2023,2023,10,October,39,W39,Sunday,Balance from Previous Month,September's Balance,Blank,Blank,Blank,Income,188.9,01/10/2023,False
+2023-09-16,2023,2023,9,September,37,W37,Saturday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,16/09/2023,False
+2023-09-09,2023,2023,9,September,36,W36,Saturday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,09/09/2023,False
+2023-09-01,2023,2023,9,September,35,W35,Friday,Balance from Previous Month,August's Balance,Blank,Blank,Blank,Income,155.9,01/09/2023,False
+2023-08-31,2023,2023,8,August,35,W35,Thursday,Balance Adjustment,Balance Adjustment,Blank,Blank,Blank,Income,200.0,31/08/2023,False
+2023-08-20,2023,2023,8,August,33,W33,Sunday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,20/08/2023,False
+2023-08-06,2023,2023,8,August,31,W31,Sunday,Cash Withdrawal,Cash Withdrawal,Blank,Blank,Blank,Income,300.0,06/08/2023,False
+2023-08-01,2023,2023,8,August,31,W31,Tuesday,Balance from Previous Month,July's Balance,Blank,Blank,Blank,Income,179.4,01/08/2023,False
