@@ -110,5 +110,5 @@ poetry run jupyter notebook
 <br>
 
 <hr>
-<center>End of Document</center>
+<p align="center"> End of Document</p>
 <hr>
