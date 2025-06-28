@@ -1,0 +1,333 @@
+﻿Date,Income/Expenses,Category,Memo,Amount
+2023-12-31,Income,Balance Adjustment,,100
+2023-12-13,Expenses,Transportation,Grab from Clementi to Changi,-38
+2023-12-13,Income,Cash Withdrawal,,300
+2023-12-13,Expenses,Telephone,Top Up Singtel Card,-13
+2023-12-12,Expenses,Food,"Burrito Bowl @Guzman Y Gomez, Star Vista, Buona Vista",-10.4
+2023-12-12,Expenses,Food,Mala @Tanjong Pagar,-19.9
+2023-12-11,Expenses,Food,"Beef Burger @MOS Burger, Raffles City, City Hall",-8.1
+2023-12-11,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-12-10,Expenses,Sport,"Gym Session @The Gym Pod, Holland Village",-11.9
+2023-12-10,Expenses,Gift,,-22.2
+2023-12-10,Expenses,Entertainment,"Entry Ticket @Flower Dome, Gardens by the Bay",-12
+2023-12-10,Expenses,Transportation,Grab from Allo to Bukit Junction,-4
+2023-12-10,Expenses,Food,"Dinner @Allo, Jalan Besar",-51
+2023-12-10,Expenses,Food,"Breakfast @Paris Baguette, One Holland Village, Holland Village",-15.5
+2023-12-09,Expenses,Food,"Western Food @Common Grill, Clementi",-18
+2023-12-08,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-4.1
+2023-12-08,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-12-07,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-12-07,Expenses,Food,"Pasta @Milan Tei, Vivo City, Harbourfront",-18.2
+2023-12-06,Expenses,Food,"Meatball Rice @Ah Lock & Co, Guoco Tower, Tanjong Pagar",-9.8
+2023-12-05,Expenses,Food,"Sushi @Sushiro, Suntec City, Promenade",-18.5
+2023-12-05,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-12-04,Income,Cash Withdrawal,,300
+2023-12-04,Expenses,Food,Chicken Rice @Clementi,-6.4
+2023-12-04,Expenses,Food,Mixed Rice @Tanjong Pagar,-5.5
+2023-12-03,Expenses,Sport,"Gym Session @The Gym Pod, International Business Park, Jurong East",-11.9
+2023-12-03,Expenses,Clothing,"Polo Shirt @G2000, IMM, Jurong East",-35.4
+2023-12-03,Expenses,Food,"Ramen @Ajisen, IMM, jurong East",-19.5
+2023-12-03,Expenses,Drinks,"Pure Dark Chocolate @Coffee Bean & Tea Leaf, IMM, Jurong East",-4
+2023-12-03,Expenses,Food,"Breakfast @Mc Donald's, Clementi",-7.4
+2023-12-03,Expenses,Clothing,"Training Shirt @Under Armour, IMM, Jurong East",-35
+2023-12-02,Expenses,Food,"Western Food @Common Grill, Clementi",-15
+2023-12-01,Expenses,Food,Fried Rice @Clementi,-7.7
+2023-12-01,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-12-01,Income,Balance from Previous Month,November's Balance,102.4
+2023-11-30,Income,Balance Adjustment,,100
+2023-11-30,Expenses,Food,Roasted Pork Rice @Clementi,-5
+2023-11-30,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-11-29,Expenses,Food,Roasted Pork Rice @Clementi,-3.5
+2023-11-29,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-11-28,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-3.7
+2023-11-28,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-11-27,Expenses,Food,Chicken Rice @Clementi,-3.9
+2023-11-27,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-11-26,Expenses,Drinks,"Drinks @Koi, Suntec City, Esplanade",-8.5
+2023-11-26,Expenses,Food,"Burger @Shake Shack, Suntec City, Esplanade",-14.9
+2023-11-26,Expenses,Food,"Sushi @Sushiro, Suntec City, Promenade",-18.5
+2023-11-25,Expenses,Food,"Western Food @El Carbon, Clementi",-9
+2023-11-25,Expenses,Food,"Chicken @Tenderbest, Clementi",-8
+2023-11-24,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-8.3
+2023-11-23,Expenses,Food,"Pasta @Saizeriya, Orchard Gateway, Somerset",-13.7
+2023-11-23,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-3.6
+2023-11-22,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-5.4
+2023-11-22,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-11-21,Expenses,Dessert,"Shark Attack @Shake Shack, Suntec City, Esplanade",-3.9
+2023-11-21,Expenses,Food,"Burger @Shake Shack, Suntec City, Esplanade",-16.3
+2023-11-20,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-4
+2023-11-20,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-11-19,Expenses,Transportation,Top Up Ezlink Card,-50
+2023-11-19,Expenses,Sport,"Gym Session @The Gym Pod, Holland Village",-11.9
+2023-11-19,Expenses,Food,"Western Food @Gastronomia, Holland Village",-15.3
+2023-11-19,Expenses,Dessert,"Dessert @Yolé, Chinatown",-8.8
+2023-11-19,Expenses,Food,"Salted Egg Pork Rice @3 Meals A Day, Sim Lim Square, Rochor",-7.2
+2023-11-18,Expenses,Food,"Chicken @Jollibee, Clementi",-20.5
+2023-11-17,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-5.4
+2023-11-17,Expenses,Food,Mixed Rice @Tanjong Pagar,-7
+2023-11-16,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-3.2
+2023-11-16,Expenses,Food,Mixed Rice @Tanjong Pagar,-7
+2023-11-16,Income,Cash Withdrawal,,300
+2023-11-15,Expenses,Dessert,"Ice Cream @Takashimaya, Orchard",-3
+2023-11-15,Expenses,Food,"Beef @Gyutan-Tan, Takashimaya, Orchard",-32.7
+2023-11-15,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-11-14,Expenses,Food,"Mexican Food @Guzman Y Gomez, Orchard Gateway, Somerset",-12.4
+2023-11-14,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-11-13,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-4.2
+2023-11-13,Expenses,Sport,"Gym Session @Gym Pod, Clementi",-10.2
+2023-11-13,Expenses,Food,Chicken Rice @Clementi,-6.3
+2023-11-12,Expenses,Sport,"Gym Session @Gym Pod, Clementi",-10.2
+2023-11-12,Expenses,Food,"Western Food @Common Grill, Clementi",-14.7
+2023-11-12,Expenses,Drinks,Milo @Clementi,-2.2
+2023-11-12,Expenses,Food,Chicken Rice @Clementi,-4.8
+2023-11-11,Expenses,Food,Fried Rice @Clementi,-7.7
+2023-11-11,Expenses,Food,"Taiwanese Food @Food Clique, SIM, Clementi",-5.8
+2023-11-10,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-11-09,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-11.3
+2023-11-08,Expenses,Food,"Rapokki @Jinjja, Clementi Mall, Clementi",-10.4
+2023-11-08,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-11-07,Expenses,Telephone,Top Up Singtel Card,-15
+2023-11-07,Expenses,Food,"Sushi @Sushiro, Wisma Atria, Orchard",-15.8
+2023-11-07,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-11-06,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-4
+2023-11-06,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-11-05,Expenses,Food,"Pizza @Go Pizza, Suntec City, Promenade",-16.6
+2023-11-05,Expenses,Drinks,"Latte @Kenangan Coffee, Raffles City, City Hall",-3.6
+2023-11-05,Expenses,Food,"Western Food @El Carbon, Clementi",-14.5
+2023-11-05,Expenses,Sport,"Gym Session @Gym Pod, Clementi",-11.9
+2023-11-04,Expenses,Food,"Western Food @Common Grill, Clementi",-19.8
+2023-11-03,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-3.7
+2023-11-03,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-11-03,Income,Cash Withdrawal,,300
+2023-11-02,Expenses,Food,"Indian Food @Koufu, Commonwealth",-8.9
+2023-11-02,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-11-02,Expenses,Transportation,Top Up Ezlink Card,-50
+2023-11-01,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-4.9
+2023-11-01,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-11-01,Income,Balance from Previous Month,October's Balance,71
+2023-10-31,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-10-31,Income,Balance Adjustment,,100
+2023-10-31,Expenses,Dessert,"Dessert @Hvala, Takashimaya, Orchard",-10.9
+2023-10-31,Expenses,Food,"Sushi @Sushiro, Wisma Atria, Orchard",-17.5
+2023-10-30,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-4.6
+2023-10-30,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-10-29,Expenses,Sport,"Gym Session @Gym Pod, Clementi",-20.5
+2023-10-29,Expenses,Food,"Western Food @El Carbon, Clementi",-10
+2023-10-29,Expenses,Drinks,Iced Milo @Clementi,-2.2
+2023-10-29,Expenses,Food,Chicken Rice @Clementi,-4
+2023-10-28,Expenses,Food,Fried Rice @Clementi,-7.7
+2023-10-28,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-5
+2023-10-27,Expenses,Food,"Nasi Lemak @Crave, Guoco Tower, Tanjong Pagar",-7.9
+2023-10-27,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-10-26,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-10-26,Expenses,Drinks,"Tea Guan Yin Latte @Ba Wang Chagee, Funan, City Hall",-3.1
+2023-10-26,Expenses,Food,"Double Mc Spicy @Mc Donald's, Funan, City Hall",-8.9
+2023-10-25,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-4.6
+2023-10-25,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-10-24,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-10-24,Expenses,Dessert,"Chocolate Brownie @The Dark Gallery, Takashimaya, Orchard",-9.5
+2023-10-24,Expenses,Food,"Sushi @Sushiro, Wisma Atria, Orchard",-19.3
+2023-10-23,Expenses,Food,"Pig Leg Rice @Maxwell Food Center, Maxwell",-5.9
+2023-10-23,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-10-22,Expenses,Haircut,"Haircut @The Base Salon, Clementi",-22
+2023-10-22,Expenses,Food,Fried Rice @Clementi,-7.7
+2023-10-22,Expenses,Sport,"Gym Session @Gym Pod, Clementi",-11.9
+2023-10-22,Expenses,Food,"Breakfast @Mc Donald's, Clementi",-7.2
+2023-10-21,Expenses,Food,"Swedish Food @IKEA, Queenstown",-15
+2023-10-21,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-5.1
+2023-10-20,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-10-20,Expenses,Food,"Dinner @Simply Jazz, Chijmes, City Hall",-60
+2023-10-19,Expenses,Fruits,"Juice @Food Republic, Wisma Atria, Orchard",-3
+2023-10-19,Expenses,Food,"Chicken Pot @Food Republic, Wisma Atria, Orchard",-10.9
+2023-10-19,Expenses,Gift,,-9
+2023-10-19,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-10-18,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-4.5
+2023-10-18,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-10-17,Expenses,Food,"Dry Bakut Teh @Eat Alley, Orchard Gateway, Somerset",-10.8
+2023-10-17,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-10-17,Expenses,Dessert,"Ice Cream @Van Leeuwen, Orchard Central, Somerset",-5.7
+2023-10-16,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-4.6
+2023-10-16,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-10-16,Income,Cash Withdrawal,,300
+2023-10-15,Expenses,Clothing,"T-Shirt @Uniqlo, Vivo City, Harbourfront",-19.9
+2023-10-15,Expenses,Food,"Western Food @Gastronomia, Vivo City, Harbourfront",-26.4
+2023-10-15,Expenses,Dessert,"Dessert @Coffee Bean & Tea Leaf, Vivo City, Harbourfront",-5
+2023-10-15,Expenses,Sport,"Gym Session @Gym Pod, Clementi",-11.9
+2023-10-15,Expenses,Food,"Breakfast @Mc Donald's, Clementi",-7.2
+2023-10-14,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-4.5
+2023-10-14,Expenses,Groceries,"Groceries @Fairprice Finest, Clementi Mall, Clementi",-23.5
+2023-10-14,Expenses,Home,AC Service Fee,-30
+2023-10-13,Expenses,Food,Fried Rice @Clementi,-7.7
+2023-10-13,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-10-12,Expenses,Food,"Mexican Food @Guzman Y Gomez, 313 Somerset, Somerset",-17.2
+2023-10-12,Expenses,Drinks,"Oolong Tea @Bawang Chagee, Wisma Atria, Orchard",-3.8
+2023-10-12,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-10-11,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-4
+2023-10-11,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-10-10,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-10-10,Expenses,Drinks,"Milk Tea @Heytea, 313 Somerset, Somerset",-5.4
+2023-10-10,Expenses,Food,"Western Food @Marché Mövenpick, 313 Somerset, Somerset",-19.8
+2023-10-09,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-4.1
+2023-10-09,Expenses,Food,Mixed Rice @Tanjong Pagar,-6
+2023-10-08,Expenses,Sport,"Gym Session @Gym Pod, Holland Village",-11.9
+2023-10-08,Expenses,Food,"Burger @Carl's Junior, Star Vista, Buona Vista",-15.5
+2023-10-08,Expenses,Food,"Spaghetti + Panini @Gastronomia, Holland Village",-20.9
+2023-10-07,Expenses,Food,"Western Food @Common Grill, Clementi",-14.5
+2023-10-07,Expenses,Food,"Breakfast Wrap @Mc Donald's, Clementi",-7.6
+2023-10-06,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-5.1
+2023-10-06,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-10-05,Expenses,Dessert,"Dessert @Maccha House, Orchard Central, Somerset",-13.5
+2023-10-05,Expenses,Food,"Sushi @Sushiro, Wisma Atria, Orchard",-15.8
+2023-10-04,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-3.7
+2023-10-04,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-10-03,Expenses,Food,"Mixed Rice @Kopitiam, Terminal 4, Changi",-11.5
+2023-10-03,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-3
+2023-10-02,Expenses,Transportation,Top Up Ezlink Card,-50
+2023-10-02,Expenses,Food,"Noodle @Maxwell Food Center, Maxwell",-6
+2023-10-02,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-10-01,Income,Cash Withdrawal,,300
+2023-10-01,Income,Balance from Previous Month,September's Balance,188.9
+2023-09-28,Expenses,Food,"Black Chicken Soup @Rasapura, Marina Bay Sands, Bayfront",-10.8
+2023-09-27,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-09-26,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-09-25,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-09-25,Expenses,Food,"Lotus Root Soup @Lau Pa Sat, Raffles Place",-6.5
+2023-09-22,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-09-21,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-09-21,Expenses,Snacks,"Chocolate Wafer @Kuriya Japanese Market, Guoco Tower, Tanjong Pagar",-1.5
+2023-09-21,Expenses,Food,"Noodle @A Noodle Story, Guoco Tower, Tanjong Pagar",-13.8
+2023-09-20,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-09-20,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-4.6
+2023-09-19,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-4.6
+2023-09-19,Expenses,Food,"Sushi @Sushiro, Wisma Atria, Orchard",-17.9
+2023-09-18,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-4.6
+2023-09-18,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-09-17,Expenses,Sport,"Gym Session @Gym Pod, Holland Village",-9.5
+2023-09-17,Expenses,Food,"Burger @MOS Burger, JEM, Jurong East",-7.2
+2023-09-17,Expenses,Food,"Pizza @Gastronomia, Holland Village",-12.8
+2023-09-16,Income,Cash Withdrawal,,300
+2023-09-16,Expenses,Food,"Chicken @Tenderbest, Clementi",-8
+2023-09-16,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-4.6
+2023-09-15,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-09-15,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-5
+2023-09-14,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-09-14,Expenses,Food,"Western Food @Black Tap, Marina Bay Sands, Bayfront",-48.8
+2023-09-13,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-5.7
+2023-09-13,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-09-12,Expenses,Dessert,"Dessert @Madam Ooze, Telok Ayer",-16
+2023-09-12,Expenses,Food,"Mexican Food @Guzman Y Gomez, Guoco Tower, Tanjong Pagar",-12.4
+2023-09-12,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-09-11,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-4.6
+2023-09-11,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.3
+2023-09-10,Expenses,Food,"Food @IKEA, Queenstown",-7.4
+2023-09-10,Expenses,Food,"Sushi @Sushiro, Suntec City, Promenade",-12.7
+2023-09-10,Expenses,Drinks,"Chocolate @Ralph's Coffee, Marina Bay Sands, Bayfront",-8
+2023-09-10,Expenses,Food,"Breakfast @Mc Donald's, Clementi",-7.1
+2023-09-10,Expenses,Sport,"Gym Session @The Gym Pod, Clementi",-5.4
+2023-09-09,Expenses,Food,"Western Food @El Carbon, Clementi",-20.5
+2023-09-09,Income,Cash Withdrawal,,300
+2023-09-08,Expenses,Food,Fried Rice @Clementi,-7.7
+2023-09-08,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-09-07,Expenses,Dessert,"Matcha Mon Blanc @Hvala, Takashimaya, Orchard",-10
+2023-09-07,Expenses,Food,"Mala @Food Republic, Orchard",-9.5
+2023-09-07,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.3
+2023-09-06,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-4.6
+2023-09-06,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-09-05,Expenses,Dessert,"Ice Cream @Van Leeuwen, Orchard Central, Somerset",-5.2
+2023-09-05,Expenses,Food,"Sushi @Sushiro, Wisma Atria, Orchard",-16.8
+2023-09-05,Expenses,Gift,,-22.7
+2023-09-05,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-09-04,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-3.3
+2023-09-04,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.3
+2023-09-03,Expenses,Food,"Fried Rice @King's Fried Rice, Clementi",-12.4
+2023-09-03,Expenses,Sport,"Gym Session @The Gym Pod, Holland Village",-5.9
+2023-09-03,Expenses,Food,"Braised Chicken Rice @Fun Toast, Star Vista, Buona Vista",-5.2
+2023-09-02,Expenses,Food,Fried Rice @Clementi,-7.4
+2023-09-02,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-5
+2023-09-02,Expenses,Transportation,Top Up Ezlink Card,-50
+2023-09-01,Expenses,Food,"Brunch @Merci Marcel, Palais Renaissance, Orchard",-31.4
+2023-09-01,Income,Balance from Previous Month,August's Balance,155.9
+2023-08-31,Expenses,Food,"Chicken @Jollibee, Lucky Plaza, Orchard",-13
+2023-08-31,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.3
+2023-08-31,Income,Balance Adjustment,,200
+2023-08-30,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-5
+2023-08-30,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-08-29,Expenses,Dessert,"Yogurt @Yolé, Vivo City, Harbourfront",-4.2
+2023-08-29,Expenses,Food,"Pasta @Mamma Mia, Vivo City, Harbourfront",-19.3
+2023-08-29,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-08-28,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-4.8
+2023-08-28,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-08-27,Expenses,Food,"Chicken @Wingstop, Clementi Mall, Clementi",-8.1
+2023-08-27,Expenses,Drinks,"Matcha @Starbucks, Metropolis, Buona Vista",-7.5
+2023-08-27,Expenses,Food,"Prata @Koufu, Commonwealth",-6.9
+2023-08-27,Expenses,Sport,"Gym Session @Gym Pod, Holland Village",-14.2
+2023-08-27,Expenses,Snacks,"Croissant + Pain au Chocolat @Tiong Bahru Bakery, Holland Village",-12
+2023-08-26,Expenses,Food,"Chicken @Jollibee, Clementi",-16.3
+2023-08-26,Expenses,Food,Fried Rice @Clementi,-7.6
+2023-08-25,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-11
+2023-08-24,Expenses,Food,"Mango Sago @Mango Ice, Orchard Gateway, Somerset",-4.9
+2023-08-24,Expenses,Dessert,"Ice Cream @Van Leeuwen, 313 Somerset, Somerset",-5.2
+2023-08-24,Expenses,Food,"Western Food @Marché Mövenpick, 313 Somerset, Somerset",-23.3
+2023-08-24,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-5.3
+2023-08-23,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-3.7
+2023-08-23,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-08-22,Expenses,Drinks,"Lemon Green Tea @Lemoon Tea, 313 Somerset, Somerset",-2
+2023-08-22,Expenses,Food,"Sushi @Genki Sushi, 313 Somerset, Somerset",-26.3
+2023-08-22,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.3
+2023-08-21,Expenses,Food,Fried Rice @Clementi,-7.7
+2023-08-21,Expenses,Groceries,"Muesli Bar @Fairprice Finest, Clementi Mall, Clementi",-33.7
+2023-08-21,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-08-20,Income,Cash Withdrawal,,300
+2023-08-20,Expenses,Clothing,"Socks @Uniqlo, Clementi Mall, Clementi",-14.9
+2023-08-20,Expenses,Food,"Rapokki @Jinjja, Clementi Mall, Clementi",-10.8
+2023-08-20,Expenses,Food,"Mixed Rice @Kopitiam, Dover",-6.9
+2023-08-20,Expenses,Sport,"Gym Session @Gym Pod, International Business Center, Jurong East",-5.5
+2023-08-20,Expenses,Dessert,"Mocha Frappe + Mc Flurry @Mc Donald's, Clementi Mall, Clementi",-1.8
+2023-08-19,Expenses,Telephone,Top Up Singtel Card,-13
+2023-08-19,Expenses,Food,"Western Food @El Carbon, Clementi",-14.8
+2023-08-18,Expenses,Dessert,"Croissant + Cake @Madame Ooze, Telok Ayer",-16.8
+2023-08-18,Expenses,Food,"Pasta @La Mensa, Guoco Tower, Tanjong Pagar",-14.9
+2023-08-18,Expenses,Food,"Noodle @Sarawak Kolo Mee, Guoco Tower, Tanjong Pagar",-7.1
+2023-08-17,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-3.7
+2023-08-17,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-08-16,Expenses,Transportation,Top Up Ezlink Card,-50
+2023-08-16,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-4.3
+2023-08-16,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-08-15,Expenses,Dessert,"Waffle @Smoochie Creamery, Far East Plaza, Orchard",-5
+2023-08-15,Expenses,Food,"Thai Food @Nana, Far East Plaza, Orchard",-16.5
+2023-08-15,Expenses,Food,Mixed Rice @Tanjong Pagar,-7
+2023-08-14,Expenses,Food,"Western Food + Prata @Koufu, Commonwealth",-11.9
+2023-08-14,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-08-13,Expenses,Food,Fried Rice @Clementi,-7.7
+2023-08-13,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-5
+2023-08-12,Expenses,Food,"BBQ @JiaYangDi BBQ, Newest, Clementi",-21.4
+2023-08-11,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-3.7
+2023-08-11,Expenses,Food,Mixed Rice @Tanjong Pagar,-6
+2023-08-10,Expenses,Food,"Noodle @Eat, Clementi Mall, Clementi",-6.3
+2023-08-10,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-08-09,Expenses,Food,"Kebab @Stuff'd, Clementi Mall, Clementi",-7.5
+2023-08-09,Expenses,Food,"Chicken @Jollibee, Tic Tech Center, Clementi",-17
+2023-08-08,Expenses,Food,Fried Rice @Clementi,-7.7
+2023-08-08,Expenses,Food,"Burger @Meatsmith, Tanjong Pagar",-12
+2023-08-07,Expenses,Food,"Double Mc Spicy @Mc Donald's, Jurong East",-8.7
+2023-08-07,Expenses,Home,"Rexbegonia @IKEA, JEM, Jurong East",-13.9
+2023-08-07,Expenses,Food,Mixed Rice @Tanjong Pagar,-7
+2023-08-06,Income,Cash Withdrawal,,300
+2023-08-06,Expenses,Drinks,"Milk Tea @Bawang Chagee, Bugis+, Bugis",-8.7
+2023-08-06,Expenses,Food,"Pork Ribs @IKEA, Alexandra, Queenstown",-14
+2023-08-06,Expenses,Dessert,"Croissant @Tiong Bahru Bakery, Tang's Plaza, Orchard",-5.6
+2023-08-06,Expenses,Food,"Noodle @Bakmi Town, Lucky Plaza, Orchard",-7.4
+2023-08-05,Expenses,Food,Fried Rice @Clementi,-9
+2023-08-05,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-4.9
+2023-08-04,Expenses,Food,"Mixed Rice @Food Loft, Clementi",-4.8
+2023-08-04,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-08-03,Expenses,Snacks,"Nuggets @Mc Donald's, Jurong East",-12.3
+2023-08-03,Expenses,Food,"Sushi @Kuriya, Guoco Tower, Tanjong Pagar",-7.8
+2023-08-03,Expenses,Movies,"Barbie @Cathay Cineplex, JEM, Jurong East",-11
+2023-08-03,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-08-02,Expenses,Food,Fried Rice @Clementi,-7.7
+2023-08-02,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-08-02,Expenses,Transportation,Top Up Ezlink Card,-50
+2023-08-01,Expenses,Food,"Burrito @Guzman Y Gomez, Guoco Tower, Tanjong Pagar",-12.4
+2023-08-01,Expenses,Food,Mixed Rice @Tanjong Pagar,-6.5
+2023-08-01,Income,Balance from Previous Month,July's Balance,179.4
