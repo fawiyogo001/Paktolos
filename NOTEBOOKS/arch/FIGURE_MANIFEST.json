@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Spending by Category (Top 7 + Others)",
+    "type": "figure",
+    "content": "Top 7 categories account for 88.82% of the total spending with the highest category spending being Food at 66.29%.",
+    "path": "C:/Folders/LightSouls888/CASH_FLOW_DATA_ANALYSIS/ASSETS/PLOTS/PIE_CHART_TOP_7_SPENDING_CATEGORIES.html"
+  },
+  {
+    "title": "Distribution of Purchase Sizes (Histogram)",
+    "type": "figure",
+    "content": "\nThe general spending amount distribution is heavily concentrated in the lower value range (left side), with a long right tail. This pattern reflects frequent low-cost purchases (such as, daily food or transport) and a few large-value expenses, possibly one-time or monthly essentials.\n",
+    "path": "C:/Folders/LightSouls888/CASH_FLOW_DATA_ANALYSIS/ASSETS/PLOTS/HISTOGRAM_DISTRIBUTION_OF_PURCHASE_SIZES.html"
+  },
+  {
+    "title": "Distribution of Purchase Sizes Without Outliers (Histogram)",
+    "type": "figure",
+    "content": "\nUpon visualised, there are considerable number of outliers beyond Upper Outlier Bound.\n",
+    "path": "C:/Folders/LightSouls888/CASH_FLOW_DATA_ANALYSIS/ASSETS/PLOTS/HISTOGRAM_DISTRIBUTION_OF_PURCHASE_SIZES_WITHOUT_OUTLIERS.html"
+  },
+  {
+    "title": "Purchase Size by Category",
+    "type": "figure",
+    "content": "\nSince each category has distinct data range and descriptive statistics, it is only reasonable the outliers are detected within each category separately.\nUpon outlier detection, red and white dots signify outlier and non-outlier data points respectively.\n",
+    "path": "C:/Folders/LightSouls888/CASH_FLOW_DATA_ANALYSIS/ASSETS/PLOTS/BOX_PLOT_PURCHASE_SIZE_BY_CATEGORY.html"
+  },
+  {
+    "title": "Purchase Size by Category Without Outliers",
+    "type": "figure",
+    "content": "In contrast, this boxplot contains no outlier.",
+    "path": "C:/Folders/LightSouls888/CASH_FLOW_DATA_ANALYSIS/ASSETS/PLOTS/BOX_PLOT_PURCHASE_SIZE_BY_CATEGORY_WITHOUT_OUTLIERS.html"
+  },
+  {
+    "title": "Spending Behaviour by Day of the Week",
+    "type": "figure",
+    "content": "\nSpending is highest on Sunday, with average transaction values approximately 18.9% above the average levels of the other days in a week. Weekdays reflect routine low-value spending (e.g., transport, food). Mondays reflect the lowest spending level across the days which are aligned as there is typically no outside activities (e.g. going out, eating out) on Mondays.\n",
+    "path": "C:/Folders/LightSouls888/CASH_FLOW_DATA_ANALYSIS/ASSETS/PLOTS/HISTOGRAM_DISTRIBUTION_OF_PURCHASE_SIZES_WITHOUT_OUTLIERS.html"
+  },
+  {
+    "title": "Spending Behaviour by Day Type (Weekday vs Weekend)",
+    "type": "figure",
+    "content": "\nUpon looking at the presented boxplot, the Spending is greater on Weekends than it is on Weekdays. In this case the significance of the difference needs to be assessed to obtain better understanding on the Spending Behaviours throughout the week.\n\nFrom the histogram previously, the data is extremely right-skewed. \n",
+    "path": "C:/Folders/LightSouls888/CASH_FLOW_DATA_ANALYSIS/ASSETS/PLOTS/SPENDING_BEHAVIOUR_WEEKEND_VS_WEEKDAY.html"
+  },
+  {
+    "title": "Spending Behaviour by Day Type (Weekday vs Weekend + Friday)",
+    "type": "figure",
+    "content": "\nUpon looking at the presented boxplot, the Spending is still greater on Weekends than it is on Weekdays. The signficance test is going to be recalculated to confirm the findings.\n",
+    "path": "C:/Folders/LightSouls888/CASH_FLOW_DATA_ANALYSIS/ASSETS/PLOTS/SPENDING_BEHAVIOUR_WEEKEND_VS_WEEKDAY_RECALCULATED.html"
+  },
+  {
+    "title": "Spending Heatmap by Region",
+    "type": "figure",
+    "content": "\nEach point represents a region of transaction activity. Size corresponds to the number of transactions (log scale), where larger points correspond to areas with more frequent transactions. Meanwhile, the average spending per transaction is represented by the blue-red colour scale with blue being the lowest average spending and red being the highest.\n",
+    "path": "C:/Folders/LightSouls888/CASH_FLOW_DATA_ANALYSIS/ASSETS/PLOTS/SPENDING_HEATMAP_BY_REGION.html"
+  }
+]

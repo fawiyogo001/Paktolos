@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Spending by Category (Top 7 + Others)",
+    "type": "figure",
+    "content": " Top 7 categories account for 88.82% of the total spending with the highest category spending being Food at 66.29%.",
+    "path": "ASSETS/PLOTS/PIE_CHART_TOP_7_SPENDING_CATEGORIES.png"
+  },
+  {
+    "title": "Distribution of Purchase Sizes (Histogram)",
+    "type": "figure",
+    "content": " The general spending amount distribution is heavily concentrated in the lower value range (left side), with a long right tail.\nThis pattern reflects frequent low-cost purchases (such as, daily food or transport) and a few large-value expenses, possibly one-\ntime or monthly essentials.",
+    "path": "ASSETS/PLOTS/HISTOGRAM_DISTRIBUTION_OF_PURCHASE_SIZES.png"
+  },
+  {
+    "title": "Distribution of Purchase Sizes Without Outliers (Histogram)",
+    "type": "figure",
+    "content": " Upon visualised, there are considerable number of outliers beyond Upper Outlier Bound.",
+    "path": "ASSETS/PLOTS/HISTOGRAM_DISTRIBUTION_OF_PURCHASE_SIZES_WITHOUT_OUTLIERS.png"
+  },
+  {
+    "title": "Purchase Size by Category",
+    "type": "figure",
+    "content": " Since each category has distinct data range and descriptive statistics, it is only reasonable the outliers are detected within\neach category separately. Upon outlier detection, red and white dots signify outlier and non-outlier data points respectively.",
+    "path": "ASSETS/PLOTS/BOX_PLOT_PURCHASE_SIZE_BY_CATEGORY.png"
+  },
+  {
+    "title": "Purchase Size by Category Without Outliers",
+    "type": "figure",
+    "content": " In contrast, this boxplot contains no outlier.",
+    "path": "ASSETS/PLOTS/BOX_PLOT_PURCHASE_SIZE_BY_CATEGORY_WITHOUT_OUTLIERS.png"
+  },
+  {
+    "title": "Spending Behaviour by Day of the Week",
+    "type": "figure",
+    "content": " Spending is highest on Sunday, with average transaction values approximately 18.9% above the average levels of the other days in\na week. Weekdays reflect routine low-value spending (e.g., transport, food). Mondays reflect the lowest spending level across the\ndays which are aligned as there is typically no outside activities (e.g. going out, eating out) on Mondays.",
+    "path": "ASSETS/PLOTS/HISTOGRAM_DISTRIBUTION_OF_PURCHASE_SIZES_WITHOUT_OUTLIERS.png"
+  },
+  {
+    "title": "Spending Behaviour by Day Type (Weekday vs Weekend)",
+    "type": "figure",
+    "content": " Upon looking at the presented boxplot, the Spending is greater on Weekends than it is on Weekdays. In this case the significance\nof the difference needs to be assessed to obtain better understanding on the Spending Behaviours throughout the week.  From the\nhistogram previously, the data is extremely right-skewed.",
+    "path": "ASSETS/PLOTS/SPENDING_BEHAVIOUR_WEEKEND_VS_WEEKDAY.png"
+  },
+  {
+    "title": "Spending Behaviour by Day Type (Weekday vs Weekend + Friday)",
+    "type": "figure",
+    "content": " Upon looking at the presented boxplot, the Spending is still greater on Weekends than it is on Weekdays. The signficance test is\ngoing to be recalculated to confirm the findings.",
+    "path": "ASSETS/PLOTS/SPENDING_BEHAVIOUR_WEEKEND_VS_WEEKDAY_RECALCULATED.png"
+  },
+  {
+    "title": "Spending Heatmap by Region",
+    "type": "figure",
+    "content": " Each point represents a region of transaction activity. Size corresponds to the number of transactions (log scale), where larger\npoints correspond to areas with more frequent transactions. Meanwhile, the average spending per transaction is represented by the\nblue-red colour scale with blue being the lowest average spending and red being the highest.",
+    "path": "ASSETS/PLOTS/SPENDING_HEATMAP_BY_REGION.png"
+  },
+  {
+    "title": "Volume vs. Value by District",
+    "type": "figure",
+    "content": " The chart above compares all districts by Transaction Count (volume), Total Spending (value), and Average Amount per Transaction\n(intensity), each normalised between 0 and 1 where 0 represents values close to the Minimum within the column and 1 the Maximum\nwithin the column.",
+    "path": "ASSETS/PLOTS/VOLUME_VALUE_BY_DISTRICT.png"
+  },
+  {
+    "title": "Monthly Spending Pattern (Stacked by Year)",
+    "type": "figure",
+    "content": " The graph shows the monthly spending trend for each year. The stacked bars indicate the total spending amount per month for each\nyear.",
+    "path": "ASSETS/PLOTS/MONTHLY_SPENDING_PATTERN_STACKED.png"
+  },
+  {
+    "title": "Monthly Spending Trend",
+    "type": "figure",
+    "content": " The specified periods where the data is missing are highlighted in the graph using gray shading and annotated as \"No Record\".",
+    "path": "ASSETS/PLOTS/MONTHLY_SPENDING_PATTERN_LINE_ANNOTATED.png"
+  },
+  {
+    "title": "Monthly Spending Trend with Moving Average",
+    "type": "figure",
+    "content": " The holistic monthly spending trend is shown in the graph, with the original data points and a 3-month, 6-month and 12-month\nmoving average.",
+    "path": "ASSETS/PLOTS/MONTHLY_SPENDING_PATTERN_MOVING_AVERAGE.png"
+  },
+  {
+    "title": "Seasonality Index (Scaled from -1 to 1)",
+    "type": "figure",
+    "content": " To better visualise the Seasonality Index, a Bar Chart scaled from -1 to 1 is used. From the graph, it is discovered that the\nrange of Seasonality Index is not beyond the scale between -0.1 to 0.1. Therefore, spending is not strongly seasonal; variability\nis likely driven by events, not months.",
+    "path": "ASSETS/PLOTS/SEASONALITY_INDEX.png"
+  },
+  {
+    "title": "Monthly Cash Flow: Resources (Income + Carry-over) vs Expenses",
+    "type": "figure",
+    "content": " Throughout the horizon of the analysis, the monthly cash flow reflects a consistent surplus each month triggering a growing\ncumulative excess income indicating a sustainable savings habits.Occasional months reflect extremely low spending are due to the\nCircuit Breaker imposed during Covid-19 pandemic and therefore, the income along with carry-over can exceed twice as much expenses\nduring those months. Overtime, the spending has been escalating as the cost of living and lifestyle in general have been climbing\naltogether.",
+    "path": "ASSETS/PLOTS/MONTHLY_CASH_FLOW.png"
+  },
+  {
+    "title": "Cumulative Surplus Analysis",
+    "type": "figure",
+    "content": " Since both June and July 2019 do not have any data points, these periods are skipped in the table. Logically, these periods\nshould remain flat and consistent with the balance of the previous month since the timeline is continuous and these two months are\nperiods of inactivity with no financial change. According to the Cumulative Surplus Analysis, the final cumulative surplus is\nS$13560.95 on December 2023.",
+    "path": "ASSETS/PLOTS/CUMULATIVE_SURPLUS_FULL.png"
+  },
+  {
+    "title": "Year-over-Year (YoY) Monthly Surplus Comparison",
+    "type": "figure",
+    "content": " Strong surpluses generally happen in January, February, March of each year linked of the low-season holiday activities since\nthese periods are more intensive due to exams and work. Some weaker surpluses of June, July, August are linked to the mid-of-the-\nyear big purchases. The absence of strong month-to-month seasonality suggests that financial behavior is primarily driven by life\ncircumstances or irregular events rather than fixed cycles",
+    "path": "ASSETS/PLOTS/YOY_SURPLUS_COMPARISON.png"
+  },
+  {
+    "title": "Trend Break Detection",
+    "type": "figure",
+    "content": " A Trend Break is detected on November 2021 which is linked with the increased spending due to the beginning of employment upon\ngraduation. Pelt/Binary Segmentation from the RPT package is used to detect the trend breaks. The approach is prioritise for\nefficient search for the optimal breakpoints using dynamic programming and actively recursively splits the signal to detect\nmultiple changes.",
+    "path": "ASSETS/PLOTS/TREND_BREAK_DETECTION.png"
+  }
+]
