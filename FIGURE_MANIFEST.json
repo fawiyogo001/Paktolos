@@ -1,109 +1,505 @@
 [
   {
+    "reporting_tag": "DESCRIPTIVE_ANALYSIS",
+    "title": "Descriptive Analysis",
+    "type": "text",
+    "heading": "h2",
+    "body": "normal",
+    "content": "Identification on what is in the data",
+    "path": null
+  },
+  {
+    "reporting_tag": "DESCRIPTIVE_ANALYSIS_GLOBAL_VIEW",
+    "title": "Global View of Expenses & Income",
+    "type": "text",
+    "heading": "h3",
+    "body": "point",
+    "content": " Total amount of Expenses: S$35,268.00 and total number of expense transactions: 3667",
+    "path": null
+  },
+  {
+    "reporting_tag": "DESCRIPTIVE_ANALYSIS_GLOBAL_VIEW_BODY",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "point",
+    "content": " Total amount of Income: S$47,037.65 and total number of income transactions: 204",
+    "path": null
+  },
+  {
+    "reporting_tag": "PIE_CHART_TOP_7_SPENDING_CATEGORIES.png",
     "title": "Spending by Category (Top 7 + Others)",
     "type": "figure",
+    "heading": "h4",
+    "body": "point",
     "content": " Top 7 categories account for 88.82% of the total spending with the highest category spending being Food at 66.29%.",
     "path": "ASSETS/PLOTS/PIE_CHART_TOP_7_SPENDING_CATEGORIES.png"
   },
   {
+    "reporting_tag": "DESCRIPTIVE_ANALYSIS_HISTOGRAM",
+    "title": "Distribution Visualisation & Analysis",
+    "type": "text",
+    "heading": "h3",
+    "body": "normal",
+    "content": "To analyse the distribution of purchase frequency in histogram and boxplot to show clarity on the skewness and common amounts",
+    "path": null
+  },
+  {
+    "reporting_tag": "HISTOGRAM_DISTRIBUTION_OF_PURCHASE_SIZES.png",
     "title": "Distribution of Purchase Sizes (Histogram)",
     "type": "figure",
+    "heading": "h4",
+    "body": "point",
     "content": " The general spending amount distribution is heavily concentrated in the lower value range (left side), with a long right tail.\nThis pattern reflects frequent low-cost purchases (such as, daily food or transport) and a few large-value expenses, possibly one-\ntime or monthly essentials.",
     "path": "ASSETS/PLOTS/HISTOGRAM_DISTRIBUTION_OF_PURCHASE_SIZES.png"
   },
   {
+    "reporting_tag": "DESCRIPTIVE_ANALYSIS_DESC_STATS",
+    "title": "Descriptive Statistics Summary",
+    "type": "table",
+    "heading": "h4",
+    "body": "normal",
+    "content": "| Metric              | Value   |\n|:--------------------|:--------|\n| Count               | 3,331   |\n| Mean                | 6.95    |\n| Median              | 6.50    |\n| Standard Deviation  | 3.51    |\n| Minimum             | 0.30    |\n| Lower Outlier Bound | -3.75   |\n| Q1 (25%)            | 4.50    |\n| Q3 (75%)            | 10.00   |\n| Upper Outlier Bound | 18.25   |\n| Maximum             | 18.20   |\n| IQR                 | 5.50    |\n| Skewness            | 0.85    |\n| Kurtosis            | 0.52    |",
+    "path": null
+  },
+  {
+    "reporting_tag": "DESCRIPTIVE_ANALYSIS_DESC_STATS_BODY",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "point",
+    "content": " The overall spending distribution is moderately right-skewed (0.85) indicating a higher concentration of small purchases along\nwith a few large outliers. The kurtosis (0.52) suggests extreme spending events are relatively rare and the distribution is more\nflattened than a normal bell curve.",
+    "path": null
+  },
+  {
+    "reporting_tag": "HISTOGRAM_DISTRIBUTION_OF_PURCHASE_SIZES_WITHOUT_OUTLIERS.png",
     "title": "Distribution of Purchase Sizes Without Outliers (Histogram)",
     "type": "figure",
+    "heading": "h4",
+    "body": "point",
     "content": " Upon visualised, there are considerable number of outliers beyond Upper Outlier Bound.",
     "path": "ASSETS/PLOTS/HISTOGRAM_DISTRIBUTION_OF_PURCHASE_SIZES_WITHOUT_OUTLIERS.png"
   },
   {
+    "reporting_tag": "BEHAVIOURAL_PATTERNS",
+    "title": "Behavioral Patterns",
+    "type": "text",
+    "heading": "h2",
+    "body": "normal",
+    "content": "Analysis to answer the question how I spend",
+    "path": null
+  },
+  {
+    "reporting_tag": "BEHAVIOURAL_PATTERNS_BOXPLOT_CATEGORY",
+    "title": "General View of Purchase Size by Category",
+    "type": "text",
+    "heading": "h3",
+    "body": "normal",
+    "content": "To showcase which categories have the largest typical purchase",
+    "path": null
+  },
+  {
+    "reporting_tag": "BOX_PLOT_PURCHASE_SIZE_BY_CATEGORY.png",
     "title": "Purchase Size by Category",
     "type": "figure",
+    "heading": "h4",
+    "body": "point",
     "content": " Since each category has distinct data range and descriptive statistics, it is only reasonable the outliers are detected within\neach category separately. Upon outlier detection, red and white dots signify outlier and non-outlier data points respectively.",
     "path": "ASSETS/PLOTS/BOX_PLOT_PURCHASE_SIZE_BY_CATEGORY.png"
   },
   {
+    "reporting_tag": "BOX_PLOT_PURCHASE_SIZE_BY_CATEGORY_WITHOUT_OUTLIERS.png",
     "title": "Purchase Size by Category Without Outliers",
     "type": "figure",
+    "heading": "h4",
+    "body": "point",
     "content": " In contrast, this boxplot contains no outlier.",
     "path": "ASSETS/PLOTS/BOX_PLOT_PURCHASE_SIZE_BY_CATEGORY_WITHOUT_OUTLIERS.png"
   },
   {
-    "title": "Spending Behaviour by Day of the Week",
-    "type": "figure",
-    "content": " Spending is highest on Sunday, with average transaction values approximately 18.9% above the average levels of the other days in\na week. Weekdays reflect routine low-value spending (e.g., transport, food). Mondays reflect the lowest spending level across the\ndays which are aligned as there is typically no outside activities (e.g. going out, eating out) on Mondays.",
-    "path": "ASSETS/PLOTS/HISTOGRAM_DISTRIBUTION_OF_PURCHASE_SIZES_WITHOUT_OUTLIERS.png"
+    "reporting_tag": "BEHAVIOURAL_PATTERNS_BAR_CHART_DAYS_WITHIN_WEEK",
+    "title": "Spending Behaviour Based on the Days within the Week",
+    "type": "text",
+    "heading": "h3",
+    "body": "normal",
+    "content": "To show the spending pattern within the days of the week",
+    "path": null
   },
   {
+    "reporting_tag": "BAR_PLOT_SPENDING_BEHAVIOUR_BY_DAY.png",
+    "title": "Spending Behaviour by Day of the Week",
+    "type": "figure",
+    "heading": "h4",
+    "body": "point",
+    "content": " Spending is highest on Sunday, with average transaction values approximately 18.9% above the average levels of the other days in\na week.",
+    "path": "ASSETS/PLOTS/BAR_PLOT_SPENDING_BEHAVIOUR_BY_DAY.png"
+  },
+  {
+    "reporting_tag": "BAR_PLOT_SPENDING_BEHAVIOUR_BY_DAY_BODY_1",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "point",
+    "content": " Weekdays reflect routine low-value spending (e.g., transport, food).",
+    "path": null
+  },
+  {
+    "reporting_tag": "BAR_PLOT_SPENDING_BEHAVIOUR_BY_DAY_BODY_2",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "point",
+    "content": "  Mondays reflect the lowest spending level across the days which are aligned as there is typically no outside activities (e.g.\ngoing out, eating out) on Mondays.",
+    "path": null
+  },
+  {
+    "reporting_tag": "BEHAVIOURAL_PATTERNS_WEEKENDS_VS_WEEKDAYS",
+    "title": "Weekends vs Weekdays Analysis",
+    "type": "text",
+    "heading": "h3",
+    "body": "normal",
+    "content": "To show the comparison of spending between weekends and weekdays",
+    "path": null
+  },
+  {
+    "reporting_tag": "SPENDING_BEHAVIOUR_WEEKEND_VS_WEEKDAY.png",
     "title": "Spending Behaviour by Day Type (Weekday vs Weekend)",
     "type": "figure",
+    "heading": "h4",
+    "body": "point",
     "content": " Upon looking at the presented boxplot, the Spending is greater on Weekends than it is on Weekdays. In this case the significance\nof the difference needs to be assessed to obtain better understanding on the Spending Behaviours throughout the week.  From the\nhistogram previously, the data is extremely right-skewed.",
     "path": "ASSETS/PLOTS/SPENDING_BEHAVIOUR_WEEKEND_VS_WEEKDAY.png"
   },
   {
+    "reporting_tag": "BEHAVIOURAL_PATTERNS_STAT_TEST_BODY_2",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "normal",
+    "content": "\nHypotheses for One-Tailed Test:\n- Null Hypothesis: average amount spent on weekend less than or equal to average amount spent on weekday \n\n    i.e. $H_0: \\mu_{weekend} \\leq \\mu_{weekday}$\n- Alternative Hypothesis: average amount spent on weekend greater than average amount spent on weekday \n\n    i.e. $H_1: \\mu_{weekend} > \\mu_{weekday}$\n",
+    "path": null
+  },
+  {
+    "reporting_tag": "BEHAVIOURAL_PATTERNS_STAT_TEST_RESULT_INTRO_1",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "normal",
+    "content": " The result of the first statistical test is as follows:",
+    "path": null
+  },
+  {
+    "reporting_tag": "BEHAVIOURAL_PATTERNS_STAT_TEST_RESULT_1",
+    "title": null,
+    "type": "table",
+    "heading": "normal",
+    "body": "normal",
+    "content": "| Metric      | Value                      |\n|:------------|:---------------------------|\n| Test        | Mann-Whitney U Test        |\n| p-value     | 0.00                       |\n| Group1_Mean | 10.70                      |\n| Group1_CI   | (9.71, 11.69)              |\n| Group2_Mean | 9.23                       |\n| Group2_CI   | (8.72, 9.74)               |\n| Conclusion  | Reject $H_0$ (Significant) |",
+    "path": null
+  },
+  {
+    "reporting_tag": "BEHAVIOURAL_PATTERNS_STAT_TEST_RESULT_CAPTION_1",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "normal",
+    "content": " With the p-value 0.00 < 0.01, it is discovered that there is a statistically significant difference on average spending between\nweekends and weekdays. Hence, Reject $H_0$ (Significant) at 99.0% confidence level.",
+    "path": null
+  },
+  {
+    "reporting_tag": "BEHAVIOURAL_PATTERNS_STAT_TEST_BODY_1",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "normal",
+    "content": " Depending on culture and life stage, Friday is sometimes considered as \"weekend-like\" periods according to many businesses\nbecause Friday night spending is often social or leisure. Another set of analysis is redone with the inclusion of Friday\nconsidered as weekend",
+    "path": null
+  },
+  {
+    "reporting_tag": "SPENDING_BEHAVIOUR_WEEKEND_VS_WEEKDAY_RECALCULATED.png",
     "title": "Spending Behaviour by Day Type (Weekday vs Weekend + Friday)",
     "type": "figure",
+    "heading": "h4",
+    "body": "point",
     "content": " Upon looking at the presented boxplot, the Spending is still greater on Weekends than it is on Weekdays. The signficance test is\ngoing to be recalculated to confirm the findings.",
     "path": "ASSETS/PLOTS/SPENDING_BEHAVIOUR_WEEKEND_VS_WEEKDAY_RECALCULATED.png"
   },
   {
+    "reporting_tag": "BEHAVIOURAL_PATTERNS_STAT_TEST_RESULT_INTRO_2",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "normal",
+    "content": " The result of the second statistical test is as follows:",
+    "path": null
+  },
+  {
+    "reporting_tag": "BEHAVIOURAL_PATTERNS_STAT_TEST_RESULT_2",
+    "title": null,
+    "type": "table",
+    "heading": "normal",
+    "body": "normal",
+    "content": "| Metric      | Value                      |\n|:------------|:---------------------------|\n| Test        | Mann-Whitney U Test        |\n| p-value     | 0.00                       |\n| Group1_Mean | 10.35                      |\n| Group1_CI   | (9.53, 11.17)              |\n| Group2_Mean | 9.10                       |\n| Group2_CI   | (8.58, 9.63)               |\n| Conclusion  | Reject $H_0$ (Significant) |",
+    "path": null
+  },
+  {
+    "reporting_tag": "BEHAVIOURAL_PATTERNS_STAT_TEST_RESULT_CAPTION_2",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "normal",
+    "content": " With the p-value 0.00 < 0.01, it is discovered that there is a statistically significant difference on average spending between\nweekends and weekdays. Hence, Reject $H_0$ (Significant) at 99.0% confidence level.",
+    "path": null
+  },
+  {
+    "reporting_tag": "BEHAVIOURAL_PATTERNS_GEOSPATIAL",
+    "title": "Geospatial Visualisation",
+    "type": "text",
+    "heading": "h3",
+    "body": "normal",
+    "content": "To visualise the geographical distribution of the data",
+    "path": null
+  },
+  {
+    "reporting_tag": "SPENDING_HEATMAP_BY_REGION.png",
     "title": "Spending Heatmap by Region",
     "type": "figure",
+    "heading": "h4",
+    "body": "point",
     "content": " Each point represents a region of transaction activity. Size corresponds to the number of transactions (log scale), where larger\npoints correspond to areas with more frequent transactions. Meanwhile, the average spending per transaction is represented by the\nblue-red colour scale with blue being the lowest average spending and red being the highest.",
     "path": "ASSETS/PLOTS/SPENDING_HEATMAP_BY_REGION.png"
   },
   {
+    "reporting_tag": "BEHAVIOURAL_PATTERNS_GEOSPATIAL_BODY_1",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "point",
+    "content": " The Geospatial Heatmap displays various distinct zones of highly-frequent low-cost transactions (e.g. Clementi and Tanjong\nPagar), likely reflecting habitual daily spending patterns around home, school, and/or work.",
+    "path": null
+  },
+  {
+    "reporting_tag": "BEHAVIOURAL_PATTERNS_GEOSPATIAL_BODY_2",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "point",
+    "content": " On the contrary, areas such as Jalan Besar and Boon Keng show much higher average spending per visit despite of minimum visits,\nrepresenting discretionary purchases.",
+    "path": null
+  },
+  {
+    "reporting_tag": "BEHAVIOURAL_PATTERNS_GEOSPATIAL_BODY_3",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "point",
+    "content": " Such contrast underlines a duality of spending behaviours where on the functional zones, there is a habitual spending\nconcentration with occasional higher consumption on other districts.",
+    "path": null
+  },
+  {
+    "reporting_tag": "BEHAVIOURAL_PATTERNS_VOLUME_VALUE",
+    "title": "Volume vs Value Analysis",
+    "type": "text",
+    "heading": "h3",
+    "body": "normal",
+    "content": "To compare districts where spending is frequent vs expensive to support behavioural insights",
+    "path": null
+  },
+  {
+    "reporting_tag": "VOLUME_VALUE_BY_DISTRICT.png",
     "title": "Volume vs. Value by District",
     "type": "figure",
+    "heading": "h4",
+    "body": "point",
     "content": " The chart above compares all districts by Transaction Count (volume), Total Spending (value), and Average Amount per Transaction\n(intensity), each normalised between 0 and 1 where 0 represents values close to the Minimum within the column and 1 the Maximum\nwithin the column.",
     "path": "ASSETS/PLOTS/VOLUME_VALUE_BY_DISTRICT.png"
   },
   {
+    "reporting_tag": "BEHAVIOURAL_PATTERNS_VOLUME_VALUE_BODY_1",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "point",
+    "content": " Clementi shows the highest normalized Transaction Volume and Total Spending, indicating it is by far the most frequently visited\nlocation, likely reflecting a habitual area such as a school or home base. On the other hand, its Average Amount per Transaction\nis low, suggesting small, routine purchases.",
+    "path": null
+  },
+  {
+    "reporting_tag": "BEHAVIOURAL_PATTERNS_VOLUME_VALUE_BODY_2",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "point",
+    "content": " On the contrary, Outram Park has a low number of transactions, but the highest average spending per visit, suggesting it is used\nfor rare but expensive purchases - possibly special dining, shopping, or events.",
+    "path": null
+  },
+  {
+    "reporting_tag": "BEHAVIOURAL_PATTERNS_VOLUME_VALUE_BODY_3",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "point",
+    "content": " Mid-tier districts like Tanjong Pagar and Jurong East show moderate activity across all metrics, suggesting balanced use cases -\nboth frequent and moderately costly.",
+    "path": null
+  },
+  {
+    "reporting_tag": "BEHAVIOURAL_PATTERNS_VOLUME_VALUE_BODY_4",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "normal",
+    "content": " Normalization provides better comparison for visualisation, however, it is worth noting that it masks absolute differences -\nClementi's transaction count could be 10x higher than others, even if shown as only slightly above in the chart.",
+    "path": null
+  },
+  {
+    "reporting_tag": "TEMPORAL_TRENDS",
+    "title": "Temporal Trends",
+    "type": "text",
+    "heading": "h2",
+    "body": "normal",
+    "content": "How the behaviour changes over time",
+    "path": null
+  },
+  {
+    "reporting_tag": "TEMPORAL_TRENDS_MONTHLY_SPEND",
+    "title": "Monthly Spend",
+    "type": "text",
+    "heading": "h3",
+    "body": "normal",
+    "content": "To show the seasonality of the spending on the monthly bucket",
+    "path": null
+  },
+  {
+    "reporting_tag": "MONTHLY_SPENDING_PATTERN_STACKED.png",
     "title": "Monthly Spending Pattern (Stacked by Year)",
     "type": "figure",
+    "heading": "h4",
+    "body": "point",
     "content": " The graph shows the monthly spending trend for each year. The stacked bars indicate the total spending amount per month for each\nyear.",
     "path": "ASSETS/PLOTS/MONTHLY_SPENDING_PATTERN_STACKED.png"
   },
   {
+    "reporting_tag": "MONTHLY_SPENDING_PATTERN_LINE.png",
     "title": "Monthly Spending Trend",
     "type": "figure",
+    "heading": "h4",
+    "body": "point",
+    "content": " A line chart displays the monthly spending trend throughout the data horizon to identify the overall spending trend.",
+    "path": "ASSETS/PLOTS/MONTHLY_SPENDING_PATTERN_LINE.png"
+  },
+  {
+    "reporting_tag": "TEMPORAL_TRENDS_MONTHLY_SPEND_TREND_BODY_1",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "point",
+    "content": " Note: There is a visible drop in spending between June and August 2019. This reflects a period during which data was not\nrecorded, not a behavioral change. Interpret trends around this period with caution.  The following periods are when the data was\nnot recorded completely and hence, no data point: June 2019 & July 2019. Due to this, these periods need to be marked in the\nsubsequent steps.",
+    "path": null
+  },
+  {
+    "reporting_tag": "MONTHLY_SPENDING_PATTERN_LINE_ANNOTATED.png",
+    "title": "Monthly Spending Trend",
+    "type": "figure",
+    "heading": "h4",
+    "body": "point",
     "content": " The specified periods where the data is missing are highlighted in the graph using gray shading and annotated as \"No Record\".",
     "path": "ASSETS/PLOTS/MONTHLY_SPENDING_PATTERN_LINE_ANNOTATED.png"
   },
   {
+    "reporting_tag": "MONTHLY_SPENDING_PATTERN_MOVING_AVERAGE.png",
     "title": "Monthly Spending Trend with Moving Average",
     "type": "figure",
+    "heading": "h4",
+    "body": "point",
     "content": " The holistic monthly spending trend is shown in the graph, with the original data points and a 3-month, 6-month and 12-month\nmoving average.",
     "path": "ASSETS/PLOTS/MONTHLY_SPENDING_PATTERN_MOVING_AVERAGE.png"
   },
   {
+    "reporting_tag": "SEASONALITY_INDEX.png",
     "title": "Seasonality Index (Scaled from -1 to 1)",
     "type": "figure",
+    "heading": "h4",
+    "body": "point",
     "content": " To better visualise the Seasonality Index, a Bar Chart scaled from -1 to 1 is used. From the graph, it is discovered that the\nrange of Seasonality Index is not beyond the scale between -0.1 to 0.1. Therefore, spending is not strongly seasonal; variability\nis likely driven by events, not months.",
     "path": "ASSETS/PLOTS/SEASONALITY_INDEX.png"
   },
   {
+    "reporting_tag": "TEMPORAL_TRENDS_SURPLUS_DEFICIT",
+    "title": "Surplus/Deficit Analysis",
+    "type": "text",
+    "heading": "h3",
+    "body": "normal",
+    "content": "To analyse the surplus/deficit in the spending pattern",
+    "path": null
+  },
+  {
+    "reporting_tag": "MONTHLY_CASH_FLOW.png",
     "title": "Monthly Cash Flow: Resources (Income + Carry-over) vs Expenses",
     "type": "figure",
+    "heading": "h4",
+    "body": "point",
     "content": " Throughout the horizon of the analysis, the monthly cash flow reflects a consistent surplus each month triggering a growing\ncumulative excess income indicating a sustainable savings habits.Occasional months reflect extremely low spending are due to the\nCircuit Breaker imposed during Covid-19 pandemic and therefore, the income along with carry-over can exceed twice as much expenses\nduring those months. Overtime, the spending has been escalating as the cost of living and lifestyle in general have been climbing\naltogether.",
     "path": "ASSETS/PLOTS/MONTHLY_CASH_FLOW.png"
   },
   {
+    "reporting_tag": "CUMULATIVE_SURPLUS.png",
     "title": "Cumulative Surplus Analysis",
     "type": "figure",
+    "heading": "h4",
+    "body": "point",
+    "content": " The graph shows the cumulative surplus analysis for each month. The bars indicate the cumulative surplus amount per month.",
+    "path": "ASSETS/PLOTS/CUMULATIVE_SURPLUS.png"
+  },
+  {
+    "reporting_tag": "CUMULATIVE_SURPLUS_FULL.png",
+    "title": "Cumulative Surplus Analysis",
+    "type": "figure",
+    "heading": "h4",
+    "body": "point",
     "content": " Since both June and July 2019 do not have any data points, these periods are skipped in the table. Logically, these periods\nshould remain flat and consistent with the balance of the previous month since the timeline is continuous and these two months are\nperiods of inactivity with no financial change. According to the Cumulative Surplus Analysis, the final cumulative surplus is\nS$13560.95 on December 2023.",
     "path": "ASSETS/PLOTS/CUMULATIVE_SURPLUS_FULL.png"
   },
   {
+    "reporting_tag": "DIAGNOSTIC_COMPARATIVE_ANALYSIS",
+    "title": "Diagnostic & Comparative Analysis",
+    "type": "text",
+    "heading": "h2",
+    "body": "normal",
+    "content": "Analysis to diagnose and compare data according to the financial events",
+    "path": null
+  },
+  {
+    "reporting_tag": "DIAGNOSTIC_COMPARATIVE_ANALYSIS_YOY",
+    "title": "Year-on-Year (YoY) Comparison",
+    "type": "text",
+    "heading": "h3",
+    "body": "normal",
+    "content": "To analyse the evolution of spending over the years",
+    "path": null
+  },
+  {
+    "reporting_tag": "YOY_SURPLUS_COMPARISON.png",
     "title": "Year-over-Year (YoY) Monthly Surplus Comparison",
     "type": "figure",
+    "heading": "h4",
+    "body": "point",
     "content": " Strong surpluses generally happen in January, February, March of each year linked of the low-season holiday activities since\nthese periods are more intensive due to exams and work. Some weaker surpluses of June, July, August are linked to the mid-of-the-\nyear big purchases. The absence of strong month-to-month seasonality suggests that financial behavior is primarily driven by life\ncircumstances or irregular events rather than fixed cycles",
     "path": "ASSETS/PLOTS/YOY_SURPLUS_COMPARISON.png"
   },
   {
+    "reporting_tag": "DIAGNOSTIC_COMPARATIVE_ANALYSIS_TREND_BREAK_DETECTION",
+    "title": "Trend Break Detection",
+    "type": "text",
+    "heading": "h3",
+    "body": "normal",
+    "content": "To identify if there is a change of pattern in spending",
+    "path": null
+  },
+  {
+    "reporting_tag": "TREND_BREAK_DETECTION.png",
     "title": "Trend Break Detection",
     "type": "figure",
+    "heading": "h4",
+    "body": "point",
     "content": " A Trend Break is detected on November 2021 which is linked with the increased spending due to the beginning of employment upon\ngraduation. Pelt/Binary Segmentation from the RPT package is used to detect the trend breaks. The approach is prioritise for\nefficient search for the optimal breakpoints using dynamic programming and actively recursively splits the signal to detect\nmultiple changes.",
     "path": "ASSETS/PLOTS/TREND_BREAK_DETECTION.png"
   }

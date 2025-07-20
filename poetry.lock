@@ -2881,6 +2881,21 @@ develop = ["colorama", "cython (>=3.0.10)", "cython (>=3.0.10,<4)", "flake8", "i
 docs = ["ipykernel", "jupyter-client", "matplotlib", "nbconvert", "nbformat", "numpydoc", "pandas-datareader", "sphinx"]
 
 [[package]]
+name = "tabulate"
+version = "0.9.0"
+description = "Pretty-print tabular data"
+optional = false
+python-versions = ">=3.7"
+groups = ["main"]
+files = [
+    {file = "tabulate-0.9.0-py3-none-any.whl", hash = "sha256:024ca478df22e9340661486f85298cff5f6dcdba14f3813e8830015b9ed1948f"},
+    {file = "tabulate-0.9.0.tar.gz", hash = "sha256:0095b12bf5966de529c0feb1fa08671671b3368eec77d7ef7ab114be2c068b3c"},
+]
+
+[package.extras]
+widechars = ["wcwidth"]
+
+[[package]]
 name = "terminado"
 version = "0.18.1"
 description = "Tornado websocket backend for the Xterm.js Javascript terminal emulator library."
@@ -3096,4 +3111,4 @@ test = ["websockets"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12"
-content-hash = "4885e7faef1516d3a8fc2ae8f5f0757f00efabd84900b8bee83c4a4692d35d51"
+content-hash = "e8be96017a3993eafd8610d6f2b7ae719229ec31e737af752e39ca31d70e7c2e"
