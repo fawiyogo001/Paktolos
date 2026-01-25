@@ -502,5 +502,77 @@
     "body": "point",
     "content": " A Trend Break is detected on November 2021 which is linked with the increased spending due to the beginning of employment upon\ngraduation. Pelt/Binary Segmentation from the RPT package is used to detect the trend breaks. The approach is prioritise for\nefficient search for the optimal breakpoints using dynamic programming and actively recursively splits the signal to detect\nmultiple changes.",
     "path": "ASSETS/PLOTS/TREND_BREAK_DETECTION.png"
+  },
+  {
+    "reporting_tag": "PREDICTIVE_AND_PRESCRIPTIVE",
+    "title": "Predictive & Prescriptive",
+    "type": "text",
+    "heading": "h2",
+    "body": "normal",
+    "content": "Leveraging on the analysis and data to optimise the financial planning for the future horizon",
+    "path": null
+  },
+  {
+    "reporting_tag": "PREDICTIVE_AND_PRESCRIPTIVE_BUDGET_RECOMMENDATION",
+    "title": "Budget Recommendation",
+    "type": "text",
+    "heading": "h3",
+    "body": "normal",
+    "content": "To determine the recommended budget level for the future periods",
+    "path": null
+  },
+  {
+    "reporting_tag": "BUDGET_RECOMMENDATION_STL_DECOMPOSITION_BODY_1",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "point",
+    "content": "In order to break down complex time series data into three core components: a long-term Trend, repeating Seasonal patterns, and\nrandom Residuals (noise), the Seasonal-Trend decomposition using LOESS (STL) method is employed. This technique is particularly\neffective for handling time series data with strong seasonal effects and can accommodate any type of seasonality. By decomposing\nthe data, we can better understand the underlying patterns and make more informed decisions regarding budget recommendations.",
+    "path": null
+  },
+  {
+    "reporting_tag": "BUDGET_RECOMMENDATION_STL_DECOMPOSITION_BODY_2",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "point",
+    "content": "The following formula is used to explain the STL Decomposition: \n",
+    "path": null
+  },
+  {
+    "reporting_tag": "BUDGET_RECOMMENDATION_STL_DECOMPOSITION_BODY_3",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "equation",
+    "content": "Observed = Trend + Seasonality + Residual\n",
+    "path": null
+  },
+  {
+    "reporting_tag": "STL_DECOMPOSITION_BUDGET_RECOMMENDATION.png",
+    "title": "STL Decomposition of Monthly Expenses",
+    "type": "figure",
+    "heading": "h4",
+    "body": "point",
+    "content": " Observed Monthly Expenses are volatile based on the monthly spending pattern. The Trend component shows a gradual increase in\nspending over time, indicating a rising cost of living or lifestyle changes. The Seasonality component reveals recurring patterns,\nwith peaks and troughs corresponding to specific months, likely influenced by holidays or annual events. The Residuals capture\nirregular spending that does not follow the trend or seasonal patterns, representing one-off expenses or anomalies.",
+    "path": "ASSETS/PLOTS/STL_DECOMPOSITION_BUDGET_RECOMMENDATION.png"
+  },
+  {
+    "reporting_tag": "ETS_FORECAST_BUDGET_RECOMMENDATION.png",
+    "title": "ETS Forecast of Monthly Expenses (Next 24 Months)",
+    "type": "figure",
+    "heading": "h4",
+    "body": "point",
+    "content": " The ETS forecast predicts the monthly expenses for the next 24 months, showing a continued upward trend in spending. This\nsuggests that without changes in spending habits or external factors, expenses are expected to rise steadily. The forecast can\nhelp in budgeting and financial planning by providing an estimate of future costs based on historical patterns.",
+    "path": "ASSETS/PLOTS/ETS_FORECAST_BUDGET_RECOMMENDATION.png"
+  },
+  {
+    "reporting_tag": "STL_ETS_BUDGET_RECOMMENDATION.png",
+    "title": "Historical and Forecasted Monthly Expenses (ETS)",
+    "type": "figure",
+    "heading": "h4",
+    "body": "point",
+    "content": " Combining historical spending data with ETS forecast provides a comprehensive view of past trends and future expectations. The\nhistorical data shows actual spending patterns, while the forecasted data indicates where expenses are likely headed. This\ncombined view aids in understanding how past behaviors influence future financial planning and budgeting.",
+    "path": "ASSETS/PLOTS/STL_ETS_BUDGET_RECOMMENDATION.png"
   }
 ]

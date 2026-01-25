@@ -163,6 +163,8 @@ def GENERATE_REPORT(REPORT_PATH="REPORT.md", MANIFEST_PATH="FIGURE_MANIFEST.json
             elif ENTRY["type"] == "text":
                 if ENTRY["body"] == "point":
                     f.write(f"* {ENTRY['content']}\n\n")
+                elif ENTRY["body"] == "equation":
+                    f.write(f"$$\n{ENTRY['content']}\n$$\n\n")
                 elif ENTRY["body"] == "normal":
                     f.write(f"{ENTRY['content']}\n\n\n")
             elif ENTRY["type"] == "table":
