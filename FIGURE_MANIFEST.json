@@ -1,68 +1,5 @@
 [
   {
-    "reporting_tag": "BUDGET_RECOMMENDATION_STL_DECOMPOSITION_BODY_1",
-    "title": null,
-    "type": "text",
-    "heading": "normal",
-    "body": "point",
-    "content": "In order to break down complex time series data into three core components: a long-term Trend, repeating Seasonal patterns, and\nrandom Residuals (noise), the Seasonal-Trend decomposition using LOESS (STL) method is employed. This technique is particularly\neffective for handling time series data with strong seasonal effects and can accommodate any type of seasonality. By decomposing\nthe data, we can better understand the underlying patterns and make more informed decisions regarding budget recommendations.",
-    "path": null
-  },
-  {
-    "reporting_tag": "BUDGET_RECOMMENDATION_STL_DECOMPOSITION_BODY_2",
-    "title": null,
-    "type": "text",
-    "heading": "normal",
-    "body": "point",
-    "content": "The following formula is used to explain the STL Decomposition: \n",
-    "path": null
-  },
-  {
-    "reporting_tag": "BUDGET_RECOMMENDATION_STL_DECOMPOSITION_BODY_3",
-    "title": null,
-    "type": "text",
-    "heading": "normal",
-    "body": "equation",
-    "content": "Observed = Trend + Seasonality + Residual\n",
-    "path": null
-  },
-  {
-    "reporting_tag": "STL_DECOMPOSITION_BUDGET_RECOMMENDATION.png",
-    "title": "STL Decomposition of Monthly Expenses",
-    "type": "figure",
-    "heading": "h4",
-    "body": "point",
-    "content": " Observed Monthly Expenses are volatile based on the monthly spending pattern. The Trend component shows a gradual increase in\nspending over time, indicating a rising cost of living or lifestyle changes. The Seasonality component reveals recurring patterns,\nwith peaks and troughs corresponding to specific months, likely influenced by holidays or annual events. The Residuals capture\nirregular spending that does not follow the trend or seasonal patterns, representing one-off expenses or anomalies.",
-    "path": "ASSETS/PLOTS/STL_DECOMPOSITION_BUDGET_RECOMMENDATION.png"
-  },
-  {
-    "reporting_tag": "ETS_FORECAST_BUDGET_RECOMMENDATION.png",
-    "title": "ETS Forecast of Monthly Expenses (Next 24 Months)",
-    "type": "figure",
-    "heading": "h4",
-    "body": "point",
-    "content": " The ETS forecast predicts the monthly expenses for the next 24 months, showing a continued upward trend in spending. This\nsuggests that without changes in spending habits or external factors, expenses are expected to rise steadily. The forecast can\nhelp in budgeting and financial planning by providing an estimate of future costs based on historical patterns.",
-    "path": "ASSETS/PLOTS/ETS_FORECAST_BUDGET_RECOMMENDATION.png"
-  },
-  {
-    "reporting_tag": "STL_ETS_BUDGET_RECOMMENDATION.png",
-    "title": "Historical and Forecasted Monthly Expenses (ETS)",
-    "type": "figure",
-    "heading": "h4",
-    "body": "point",
-    "content": " Combining historical spending data with ETS forecast provides a comprehensive view of past trends and future expectations. The\nhistorical data shows actual spending patterns, while the forecasted data indicates where expenses are likely headed. This\ncombined view aids in understanding how past behaviors influence future financial planning and budgeting.",
-    "path": "ASSETS/PLOTS/STL_ETS_BUDGET_RECOMMENDATION.png"
-  },
-  {
-    "reporting_tag": "BUDGET_RECOMMENDATION_SUMMARY_BODY_1",
-    "title": null,
-    "type": "text",
-    "heading": "normal",
-    "body": "point",
-    "content": "Based on the time series decomposition and forecasting results, monthly expenses are projected to remain on an upward trajectory,\nwith an estimated average monthly expenditure of approximately $812.73 over the forecast horizon. This projection reflects the\ncontinuation of long-term spending trends and recurring seasonal patterns observed in the historical data.  While short-term\nfluctuations are expected, the forecast provides a stable baseline for forward-looking financial planning rather than precise\nmonth-level predictions.",
-    "path": null
-  },
-  {
     "reporting_tag": "DESCRIPTIVE_ANALYSIS",
     "title": "Descriptive Analysis",
     "type": "text",
@@ -654,6 +591,24 @@
     "heading": "h3",
     "body": "normal",
     "content": "To determine the recommended budget level for the future periods",
+    "path": null
+  },
+  {
+    "reporting_tag": "PREDICTIVE_AND_PRESCRIPTIVE_BUDGET_RECOMMENDATION.png",
+    "title": "Monthly Expenses with Budget Recommendation",
+    "type": "figure",
+    "heading": "h4",
+    "body": "point",
+    "content": " The budget recommendation is derived from the ETS forecast of monthly expenses, adjusted by a safety buffer of 50% to account for\nvariability in spending. This approach ensures that the recommended budget not only reflects expected costs but also provides a\ncushion against unforeseen expenses, promoting financial stability and preparedness.",
+    "path": "ASSETS/PLOTS/PREDICTIVE_AND_PRESCRIPTIVE_BUDGET_RECOMMENDATION.png"
+  },
+  {
+    "reporting_tag": "BUDGET_RECOMMENDATION_SUMMARY_BODY_1",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "point",
+    "content": "Based on the forecasted spending trajectory and historical variability, the recommended monthly budget is SGD 907.04, which\nincludes a safety buffer of 50% to account for typical spending fluctuations.",
     "path": null
   }
 ]

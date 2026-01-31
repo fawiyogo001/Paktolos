@@ -1,60 +1,12 @@
 # Data Analysis Report
 
-Report generated on: 28/01/2026 22:57:58
+Report generated on: 31/01/2026 21:01:19
 
 Because GitHub is unable to display Plotly interactive figures, a dynamic report is generated to compile each figure along with their respective captions.
 
 For interactive features, please refer to the Jupyter notebooks in the 'NOTEBOOKS/' directory and rerun the cells to generate the plots.
 
 <hr>
-
-* In order to break down complex time series data into three core components: a long-term Trend, repeating Seasonal patterns, and
-random Residuals (noise), the Seasonal-Trend decomposition using LOESS (STL) method is employed. This technique is particularly
-effective for handling time series data with strong seasonal effects and can accommodate any type of seasonality. By decomposing
-the data, we can better understand the underlying patterns and make more informed decisions regarding budget recommendations.
-
-* The following formula is used to explain the STL Decomposition: 
-
-
-
-
- $Observed = Trend + Seasonality + Residual
-$
-
-
-#### STL Decomposition of Monthly Expenses
-
-<p align='center'><img src='ASSETS/PLOTS/STL_DECOMPOSITION_BUDGET_RECOMMENDATION.png'></p>
-
-* Observed Monthly Expenses are volatile based on the monthly spending pattern. The Trend component shows a gradual increase in
-spending over time, indicating a rising cost of living or lifestyle changes. The Seasonality component reveals recurring patterns,
-with peaks and troughs corresponding to specific months, likely influenced by holidays or annual events. The Residuals capture
-irregular spending that does not follow the trend or seasonal patterns, representing one-off expenses or anomalies.
-
-
-#### ETS Forecast of Monthly Expenses (Next 24 Months)
-
-<p align='center'><img src='ASSETS/PLOTS/ETS_FORECAST_BUDGET_RECOMMENDATION.png'></p>
-
-* The ETS forecast predicts the monthly expenses for the next 24 months, showing a continued upward trend in spending. This
-suggests that without changes in spending habits or external factors, expenses are expected to rise steadily. The forecast can
-help in budgeting and financial planning by providing an estimate of future costs based on historical patterns.
-
-
-#### Historical and Forecasted Monthly Expenses (ETS)
-
-<p align='center'><img src='ASSETS/PLOTS/STL_ETS_BUDGET_RECOMMENDATION.png'></p>
-
-* Combining historical spending data with ETS forecast provides a comprehensive view of past trends and future expectations. The
-historical data shows actual spending patterns, while the forecasted data indicates where expenses are likely headed. This
-combined view aids in understanding how past behaviors influence future financial planning and budgeting.
-
-
-* Based on the time series decomposition and forecasting results, monthly expenses are projected to remain on an upward trajectory,
-with an estimated average monthly expenditure of approximately $812.73 over the forecast horizon. This projection reflects the
-continuation of long-term spending trends and recurring seasonal patterns observed in the historical data.  While short-term
-fluctuations are expected, the forecast provides a stable baseline for forward-looking financial planning rather than precise
-month-level predictions.
 
 <hr>
 
@@ -501,6 +453,18 @@ month-level predictions.
 
 To determine the recommended budget level for the future periods
 
+
+#### Monthly Expenses with Budget Recommendation
+
+<p align='center'><img src='ASSETS/PLOTS/PREDICTIVE_AND_PRESCRIPTIVE_BUDGET_RECOMMENDATION.png'></p>
+
+* The budget recommendation is derived from the ETS forecast of monthly expenses, adjusted by a safety buffer of 50% to account for
+variability in spending. This approach ensures that the recommended budget not only reflects expected costs but also provides a
+cushion against unforeseen expenses, promoting financial stability and preparedness.
+
+
+* Based on the forecasted spending trajectory and historical variability, the recommended monthly budget is SGD 907.04, which
+includes a safety buffer of 50% to account for typical spending fluctuations.
 
 ---
 

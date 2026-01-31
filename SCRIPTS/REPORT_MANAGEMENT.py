@@ -135,6 +135,9 @@ def GENERATE_REPORT(REPORT_PATH="REPORT.md", MANIFEST_PATH="FIGURE_MANIFEST.json
 
     os.makedirs(os.path.dirname(REPORT_PATH) or ".", exist_ok=True)
 
+    if os.path.exists(REPORT_FILE):
+        os.remove(REPORT_FILE)
+    
     FIGURE_MANIFEST = LOAD_FIGURE_MANIFEST(MANIFEST_FILE)
 
     with open(REPORT_FILE, "w") as f:
