@@ -610,5 +610,59 @@
     "body": "point",
     "content": "Based on the forecasted spending trajectory and historical variability, the recommended monthly budget is SGD 907.04, which\nincludes a safety buffer of 50% to account for typical spending fluctuations.",
     "path": null
+  },
+  {
+    "reporting_tag": "PREDICTIVE_AND_PRESCRIPTIVE_EARLY_WARNING",
+    "title": "Early Warning & Anomaly Detection",
+    "type": "text",
+    "heading": "h3",
+    "body": "normal",
+    "content": "To predict overspending in the future based on the trends",
+    "path": null
+  },
+  {
+    "reporting_tag": "SARIMA_RESIDUALS_LINE_EARLY_WARNING.png",
+    "title": "SARIMA Residuals Over Time",
+    "type": "figure",
+    "heading": "h4",
+    "body": "point",
+    "content": " Residuals oscillate randomly around zero, suggesting that the SARIMA model has adequately captured trend and seasonal dynamics.\nIsolated spikes indicate potential anomalous months rather than systematic model bias.",
+    "path": "ASSETS/PLOTS/SARIMA_RESIDUALS_LINE_EARLY_WARNING.png"
+  },
+  {
+    "reporting_tag": "SARIMA_RESIDUALS_HISTOGRAM_EARLY_WARNING.png",
+    "title": "Distribution of SARIMA Residuals (Non-normalised)",
+    "type": "figure",
+    "heading": "h4",
+    "body": "point",
+    "content": " The residual distribution is concentrated around zero, with most errors within \u00b1200, indicating good predictive accuracy for\ntypical months. Larger residuals at the extremes reflect occasional atypical spending events rather than systematic model failure.",
+    "path": "ASSETS/PLOTS/SARIMA_RESIDUALS_HISTOGRAM_EARLY_WARNING.png"
+  },
+  {
+    "reporting_tag": "SARIMA_RESIDUALS_QQ_PLOT_EARLY_WARNING.png",
+    "title": "QQ Plot of SARIMA Residuals",
+    "type": "figure",
+    "heading": "h4",
+    "body": "point",
+    "content": " The QQ plot shows good alignment with the normal distribution in the central region, with increasing deviation at the tails. This\nindicates the presence of occasional extreme values, which is typical in financial expense data.",
+    "path": "ASSETS/PLOTS/SARIMA_RESIDUALS_QQ_PLOT_EARLY_WARNING.png"
+  },
+  {
+    "reporting_tag": "SARIMA_RESIDUALS_ACF_EARLY_WARNING.png",
+    "title": "Auto-correlation of SARIMA Residuals",
+    "type": "figure",
+    "heading": "h4",
+    "body": "point",
+    "content": " Aside from the trivial lag-0 autocorrelation, residual auto-correlations decay rapidly and remain within statistical bounds,\nindicating no remaining time-dependent structure.",
+    "path": "ASSETS/PLOTS/SARIMA_RESIDUALS_ACF_EARLY_WARNING.png"
+  },
+  {
+    "reporting_tag": "SARIMA_FORECAST_EARLY_WARNING.png",
+    "title": "SARIMA Forecast of Monthly Expenses",
+    "type": "figure",
+    "heading": "h4",
+    "body": "point",
+    "content": " Given historical data and model assumptions, there is a 95.0% probability that actual expenses will fall within this range. If an\nactual monthly expense exceeds the upper bound, it signals potential overspending requiring attention, while staying below the\nlower bound indicates underspending. The widening confidence interval reflects increasing uncertainty over longer forecast\nhorizons, underscoring the need for regular forecast updates as new data becomes available.",
+    "path": "ASSETS/PLOTS/SARIMA_FORECAST_EARLY_WARNING.png"
   }
 ]

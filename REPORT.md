@@ -1,6 +1,6 @@
 # Data Analysis Report
 
-Report generated on: 31/01/2026 21:01:19
+Report generated on: 31/01/2026 23:05:38
 
 Because GitHub is unable to display Plotly interactive figures, a dynamic report is generated to compile each figure along with their respective captions.
 
@@ -410,11 +410,15 @@ the data, we can better understand the underlying patterns and make more informe
 
 
 
+<div align='center'>
+
 
  $Observed = Trend + Seasonality + Residual
 $
 
 
+
+</div>
 #### STL Decomposition of Monthly Expenses
 
 <p align='center'><img src='ASSETS/PLOTS/STL_DECOMPOSITION_FORECAST_FOUNDATIONS.png'></p>
@@ -465,6 +469,53 @@ cushion against unforeseen expenses, promoting financial stability and preparedn
 
 * Based on the forecasted spending trajectory and historical variability, the recommended monthly budget is SGD 907.04, which
 includes a safety buffer of 50% to account for typical spending fluctuations.
+
+### Early Warning & Anomaly Detection
+
+To predict overspending in the future based on the trends
+
+
+#### SARIMA Residuals Over Time
+
+<p align='center'><img src='ASSETS/PLOTS/SARIMA_RESIDUALS_LINE_EARLY_WARNING.png'></p>
+
+* Residuals oscillate randomly around zero, suggesting that the SARIMA model has adequately captured trend and seasonal dynamics.
+Isolated spikes indicate potential anomalous months rather than systematic model bias.
+
+
+#### Distribution of SARIMA Residuals (Non-normalised)
+
+<p align='center'><img src='ASSETS/PLOTS/SARIMA_RESIDUALS_HISTOGRAM_EARLY_WARNING.png'></p>
+
+* The residual distribution is concentrated around zero, with most errors within ±200, indicating good predictive accuracy for
+typical months. Larger residuals at the extremes reflect occasional atypical spending events rather than systematic model failure.
+
+
+#### QQ Plot of SARIMA Residuals
+
+<p align='center'><img src='ASSETS/PLOTS/SARIMA_RESIDUALS_QQ_PLOT_EARLY_WARNING.png'></p>
+
+* The QQ plot shows good alignment with the normal distribution in the central region, with increasing deviation at the tails. This
+indicates the presence of occasional extreme values, which is typical in financial expense data.
+
+
+#### Auto-correlation of SARIMA Residuals
+
+<p align='center'><img src='ASSETS/PLOTS/SARIMA_RESIDUALS_ACF_EARLY_WARNING.png'></p>
+
+* Aside from the trivial lag-0 autocorrelation, residual auto-correlations decay rapidly and remain within statistical bounds,
+indicating no remaining time-dependent structure.
+
+
+#### SARIMA Forecast of Monthly Expenses
+
+<p align='center'><img src='ASSETS/PLOTS/SARIMA_FORECAST_EARLY_WARNING.png'></p>
+
+* Given historical data and model assumptions, there is a 95.0% probability that actual expenses will fall within this range. If an
+actual monthly expense exceeds the upper bound, it signals potential overspending requiring attention, while staying below the
+lower bound indicates underspending. The widening confidence interval reflects increasing uncertainty over longer forecast
+horizons, underscoring the need for regular forecast updates as new data becomes available.
+
 
 ---
 
