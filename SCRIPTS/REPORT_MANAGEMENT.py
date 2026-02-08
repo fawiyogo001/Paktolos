@@ -125,6 +125,19 @@ def LOAD_FIGURE_MANIFEST(FIGURE_MANIFEST_PATH):
         FIGURE_MANIFEST = json.load(f)
     return FIGURE_MANIFEST
 
+def CLEAR_FIGURE_MANIFEST(MANIFEST_PATH="FIGURE_MANIFEST.json"):
+    
+    NOTEBOOK_DIR = Path(os.getcwd()).resolve()
+    PROJECT_ROOT = NOTEBOOK_DIR.parent
+
+    MANIFEST_FILE = PROJECT_ROOT / MANIFEST_PATH
+
+    if MANIFEST_FILE.exists():
+        os.remove(MANIFEST_FILE)
+        print(f"✅ Cleared existing figure manifest at {MANIFEST_FILE}.")
+    else:
+        print(f"ℹ️ No existing manifest found at {MANIFEST_FILE} to clear.")
+
 def GENERATE_REPORT(REPORT_PATH="REPORT.md", MANIFEST_PATH="FIGURE_MANIFEST.json"):
 
     NOTEBOOK_DIR = Path(os.getcwd()).resolve()
@@ -169,7 +182,7 @@ def GENERATE_REPORT(REPORT_PATH="REPORT.md", MANIFEST_PATH="FIGURE_MANIFEST.json
                 elif ENTRY["body"] == "equation":
                     f.write(f"\n<div align='center'>\n")
                     f.write(f"\n\n ${ENTRY['content']}$\n\n\n")
-                    f.write(f"\n</div>\n")
+                    f.write(f"\n</div>\n\n")
                 elif ENTRY["body"] == "normal":
                     f.write(f"{ENTRY['content']}\n\n\n")
             elif ENTRY["type"] == "table":
