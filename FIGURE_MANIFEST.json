@@ -585,6 +585,87 @@
     "path": null
   },
   {
+    "reporting_tag": "SARIMA_FORECAST_FOUNDATIONS.png",
+    "title": "SARIMA Forecast of Monthly Expenses",
+    "type": "figure",
+    "heading": "h4",
+    "body": "point",
+    "content": " Given historical data and model assumptions, there is a 95.0% probability that actual expenses will fall within this range. If an\nactual monthly expense exceeds the upper bound, it signals potential overspending requiring attention, while staying below the\nlower bound indicates underspending. The widening confidence interval reflects increasing uncertainty over longer forecast\nhorizons, underscoring the need for regular forecast updates as new data becomes available.",
+    "path": "ASSETS/PLOTS/SARIMA_FORECAST_FOUNDATIONS.png"
+  },
+  {
+    "reporting_tag": "FORECAST_FOUNDATIONS_SARIMA_BODY_1",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "point",
+    "content": "With a statistically validated SARIMA model and clearly defined confidence bounds, deviations beyond expected expenditure ranges\ncan be systematically identified. This establishes a robust early warning mechanism that flags abnormal spending behavior before\nit compounds, enabling proactive financial intervention.",
+    "path": null
+  },
+  {
+    "reporting_tag": "SARIMA_RESIDUALS_DIAGNOSTICS_FORECAST_FOUNDATIONS.png",
+    "title": "SARIMA Model Residual Diagnostics",
+    "type": "figure",
+    "heading": "h4",
+    "body": "point",
+    "content": " The residual diagnostics validate the SARIMA model's adequacy: (1) Residuals oscillate randomly around zero with no systematic\npatterns, indicating proper trend and seasonal capture; (2) The distribution is approximately normal and centered at zero, with\nmost errors within -200 to +200, though heavier tails suggest occasional extreme spending events; (3) The Q-Q plot shows good\nalignment in the central region with deviation at extremes, typical for financial data with outliers; (4) ACF values decay rapidly\nand stay within confidence bounds (except lag-0), confirming no remaining autocorrelation. Overall, the model effectively captures\nthe time series structure, with residual deviations attributable to genuine anomalies rather than model inadequacy.",
+    "path": "ASSETS/PLOTS/SARIMA_RESIDUALS_DIAGNOSTICS_FORECAST_FOUNDATIONS.png"
+  },
+  {
+    "reporting_tag": "MODEL_COMPARISON_FORECAST_FOUNDATIONS.png",
+    "title": "Model Comparison: ETS vs SARIMA",
+    "type": "figure",
+    "heading": "h4",
+    "body": "point",
+    "content": " The comparison reveals distinct behavioral differences between ETS and SARIMA models. ETS produces smoother, more stable\nforecasts by gradually weighting historical data, making it less reactive to recent changes. In contrast, SARIMA demonstrates\nhigher sensitivity to recent spending patterns, particularly visible in the post-2023 period where it captures the downward trend\nmore aggressively. This adaptive characteristic makes SARIMA more suitable for anomaly detection, as it adjusts its baseline\nexpectations faster, allowing genuine deviations to be detected rather than being masked by outdated historical averages. The\ntrade-off is increased forecast variance, but for early warning systems, responsiveness to recent patterns outweighs smoothness.",
+    "path": "ASSETS/PLOTS/MODEL_COMPARISON_FORECAST_FOUNDATIONS.png"
+  },
+  {
+    "reporting_tag": "PREDICTIVE_AND_PRESCRIPTIVE_ANOMALY_DETECTION",
+    "title": "Early Warning & Anomaly Detection",
+    "type": "text",
+    "heading": "h3",
+    "body": "normal",
+    "content": "To predict overspending in the future based on the trends",
+    "path": null
+  },
+  {
+    "reporting_tag": "ANOMALY_DETECTION_PREFACE_1",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "point",
+    "content": "Backtesting serves as our primary anomaly detection method. By performing  rolling-window forecasts and comparing predictions to\nactual values, we can: 1. Identify months where actual spending falls outside predicted confidence intervals 2. Ensure anomalies\nare detected based on historical patterns, not one-time model fit 3. Validate detection robustness across different time periods\nAnomalies are flagged when actual expenses fall outside the 95% confidence interval of the SARIMA forecast.",
+    "path": null
+  },
+  {
+    "reporting_tag": "CI_ANOMALY_DETECTION.png",
+    "title": "Anomaly Detection via Confidence Intervals Backtesting",
+    "type": "figure",
+    "heading": "h4",
+    "body": "point",
+    "content": " The back-testing results demonstrate the SARIMA model's effectiveness in forecasting monthly expenses, with most actual values\nfalling within the predicted confidence intervals. Detected anomalies highlight months where spending deviated significantly from\nexpectations, validating the early warning system's capability to identify potential overspending events.",
+    "path": "ASSETS/PLOTS/CI_ANOMALY_DETECTION.png"
+  },
+  {
+    "reporting_tag": "ANOMALY_DETECTION_CI_SUMMARY_BODY_1",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "point",
+    "content": "By systematically back-testing the SARIMA model over the past 12 months, we have validated its predictive accuracy and reliability\nin identifying spending anomalies. The model's ability to flag deviations beyond established confidence intervals provides a\nrobust early warning mechanism, empowering proactive financial management and timely interventions to mitigate overspending risks.\nThe following months are flagged as anomalies: Jan 2023, Dec 2023. The months identified can be further investigated to understand\nthe underlying causes and implement corrective actions as needed since they represent significant deviations from expected\nspending patterns.",
+    "path": null
+  },
+  {
+    "reporting_tag": "ANOMALY_DETECTION_ZSCORE_SUMMARY_BODY_1",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "point",
+    "content": "Using Z-score threshold of 1.5 since the maximum observed Z-score is 1.91, which indicates that there are significant deviations\nin the residuals. A threshold of 1.5 standard deviations effectively captures these anomalies while minimizing false positives.\nThis threshold balances sensitivity and specificity, ensuring that genuine anomalies are detected without overwhelming the system\nwith false alarms. In this case, the months identified as anomalies based on Z-score analysis are: Jan 2023, Dec 2023.",
+    "path": null
+  },
+  {
     "reporting_tag": "PREDICTIVE_AND_PRESCRIPTIVE_BUDGET_RECOMMENDATION",
     "title": "Budget Recommendation",
     "type": "text",
@@ -610,59 +691,5 @@
     "body": "point",
     "content": "Based on the forecasted spending trajectory and historical variability, the recommended monthly budget is SGD 907.04, which\nincludes a safety buffer of 50% to account for typical spending fluctuations.",
     "path": null
-  },
-  {
-    "reporting_tag": "PREDICTIVE_AND_PRESCRIPTIVE_EARLY_WARNING",
-    "title": "Early Warning & Anomaly Detection",
-    "type": "text",
-    "heading": "h3",
-    "body": "normal",
-    "content": "To predict overspending in the future based on the trends",
-    "path": null
-  },
-  {
-    "reporting_tag": "SARIMA_RESIDUALS_LINE_EARLY_WARNING.png",
-    "title": "SARIMA Residuals Over Time",
-    "type": "figure",
-    "heading": "h4",
-    "body": "point",
-    "content": " Residuals oscillate randomly around zero, suggesting that the SARIMA model has adequately captured trend and seasonal dynamics.\nIsolated spikes indicate potential anomalous months rather than systematic model bias.",
-    "path": "ASSETS/PLOTS/SARIMA_RESIDUALS_LINE_EARLY_WARNING.png"
-  },
-  {
-    "reporting_tag": "SARIMA_RESIDUALS_HISTOGRAM_EARLY_WARNING.png",
-    "title": "Distribution of SARIMA Residuals (Non-normalised)",
-    "type": "figure",
-    "heading": "h4",
-    "body": "point",
-    "content": " The residual distribution is concentrated around zero, with most errors within \u00b1200, indicating good predictive accuracy for\ntypical months. Larger residuals at the extremes reflect occasional atypical spending events rather than systematic model failure.",
-    "path": "ASSETS/PLOTS/SARIMA_RESIDUALS_HISTOGRAM_EARLY_WARNING.png"
-  },
-  {
-    "reporting_tag": "SARIMA_RESIDUALS_QQ_PLOT_EARLY_WARNING.png",
-    "title": "QQ Plot of SARIMA Residuals",
-    "type": "figure",
-    "heading": "h4",
-    "body": "point",
-    "content": " The QQ plot shows good alignment with the normal distribution in the central region, with increasing deviation at the tails. This\nindicates the presence of occasional extreme values, which is typical in financial expense data.",
-    "path": "ASSETS/PLOTS/SARIMA_RESIDUALS_QQ_PLOT_EARLY_WARNING.png"
-  },
-  {
-    "reporting_tag": "SARIMA_RESIDUALS_ACF_EARLY_WARNING.png",
-    "title": "Auto-correlation of SARIMA Residuals",
-    "type": "figure",
-    "heading": "h4",
-    "body": "point",
-    "content": " Aside from the trivial lag-0 autocorrelation, residual auto-correlations decay rapidly and remain within statistical bounds,\nindicating no remaining time-dependent structure.",
-    "path": "ASSETS/PLOTS/SARIMA_RESIDUALS_ACF_EARLY_WARNING.png"
-  },
-  {
-    "reporting_tag": "SARIMA_FORECAST_EARLY_WARNING.png",
-    "title": "SARIMA Forecast of Monthly Expenses",
-    "type": "figure",
-    "heading": "h4",
-    "body": "point",
-    "content": " Given historical data and model assumptions, there is a 95.0% probability that actual expenses will fall within this range. If an\nactual monthly expense exceeds the upper bound, it signals potential overspending requiring attention, while staying below the\nlower bound indicates underspending. The widening confidence interval reflects increasing uncertainty over longer forecast\nhorizons, underscoring the need for regular forecast updates as new data becomes available.",
-    "path": "ASSETS/PLOTS/SARIMA_FORECAST_EARLY_WARNING.png"
   }
 ]

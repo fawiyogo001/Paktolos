@@ -1,6 +1,6 @@
 # Data Analysis Report
 
-Report generated on: 31/01/2026 23:05:38
+Report generated on: 09/02/2026 00:41:49
 
 Because GitHub is unable to display Plotly interactive figures, a dynamic report is generated to compile each figure along with their respective captions.
 
@@ -419,6 +419,7 @@ $
 
 
 </div>
+
 #### STL Decomposition of Monthly Expenses
 
 <p align='center'><img src='ASSETS/PLOTS/STL_DECOMPOSITION_FORECAST_FOUNDATIONS.png'></p>
@@ -453,6 +454,75 @@ continuation of long-term spending trends and recurring seasonal patterns observ
 fluctuations are expected, the forecast provides a stable baseline for forward-looking financial planning rather than precise
 month-level predictions.
 
+#### SARIMA Forecast of Monthly Expenses
+
+<p align='center'><img src='ASSETS/PLOTS/SARIMA_FORECAST_FOUNDATIONS.png'></p>
+
+* Given historical data and model assumptions, there is a 95.0% probability that actual expenses will fall within this range. If an
+actual monthly expense exceeds the upper bound, it signals potential overspending requiring attention, while staying below the
+lower bound indicates underspending. The widening confidence interval reflects increasing uncertainty over longer forecast
+horizons, underscoring the need for regular forecast updates as new data becomes available.
+
+
+* With a statistically validated SARIMA model and clearly defined confidence bounds, deviations beyond expected expenditure ranges
+can be systematically identified. This establishes a robust early warning mechanism that flags abnormal spending behavior before
+it compounds, enabling proactive financial intervention.
+
+#### SARIMA Model Residual Diagnostics
+
+<p align='center'><img src='ASSETS/PLOTS/SARIMA_RESIDUALS_DIAGNOSTICS_FORECAST_FOUNDATIONS.png'></p>
+
+* The residual diagnostics validate the SARIMA model's adequacy: (1) Residuals oscillate randomly around zero with no systematic
+patterns, indicating proper trend and seasonal capture; (2) The distribution is approximately normal and centered at zero, with
+most errors within -200 to +200, though heavier tails suggest occasional extreme spending events; (3) The Q-Q plot shows good
+alignment in the central region with deviation at extremes, typical for financial data with outliers; (4) ACF values decay rapidly
+and stay within confidence bounds (except lag-0), confirming no remaining autocorrelation. Overall, the model effectively captures
+the time series structure, with residual deviations attributable to genuine anomalies rather than model inadequacy.
+
+
+#### Model Comparison: ETS vs SARIMA
+
+<p align='center'><img src='ASSETS/PLOTS/MODEL_COMPARISON_FORECAST_FOUNDATIONS.png'></p>
+
+* The comparison reveals distinct behavioral differences between ETS and SARIMA models. ETS produces smoother, more stable
+forecasts by gradually weighting historical data, making it less reactive to recent changes. In contrast, SARIMA demonstrates
+higher sensitivity to recent spending patterns, particularly visible in the post-2023 period where it captures the downward trend
+more aggressively. This adaptive characteristic makes SARIMA more suitable for anomaly detection, as it adjusts its baseline
+expectations faster, allowing genuine deviations to be detected rather than being masked by outdated historical averages. The
+trade-off is increased forecast variance, but for early warning systems, responsiveness to recent patterns outweighs smoothness.
+
+
+### Early Warning & Anomaly Detection
+
+To predict overspending in the future based on the trends
+
+
+* Backtesting serves as our primary anomaly detection method. By performing  rolling-window forecasts and comparing predictions to
+actual values, we can: 1. Identify months where actual spending falls outside predicted confidence intervals 2. Ensure anomalies
+are detected based on historical patterns, not one-time model fit 3. Validate detection robustness across different time periods
+Anomalies are flagged when actual expenses fall outside the 95% confidence interval of the SARIMA forecast.
+
+#### Anomaly Detection via Confidence Intervals Backtesting
+
+<p align='center'><img src='ASSETS/PLOTS/CI_ANOMALY_DETECTION.png'></p>
+
+* The back-testing results demonstrate the SARIMA model's effectiveness in forecasting monthly expenses, with most actual values
+falling within the predicted confidence intervals. Detected anomalies highlight months where spending deviated significantly from
+expectations, validating the early warning system's capability to identify potential overspending events.
+
+
+* By systematically back-testing the SARIMA model over the past 12 months, we have validated its predictive accuracy and reliability
+in identifying spending anomalies. The model's ability to flag deviations beyond established confidence intervals provides a
+robust early warning mechanism, empowering proactive financial management and timely interventions to mitigate overspending risks.
+The following months are flagged as anomalies: Jan 2023, Dec 2023. The months identified can be further investigated to understand
+the underlying causes and implement corrective actions as needed since they represent significant deviations from expected
+spending patterns.
+
+* Using Z-score threshold of 1.5 since the maximum observed Z-score is 1.91, which indicates that there are significant deviations
+in the residuals. A threshold of 1.5 standard deviations effectively captures these anomalies while minimizing false positives.
+This threshold balances sensitivity and specificity, ensuring that genuine anomalies are detected without overwhelming the system
+with false alarms. In this case, the months identified as anomalies based on Z-score analysis are: Jan 2023, Dec 2023.
+
 ### Budget Recommendation
 
 To determine the recommended budget level for the future periods
@@ -469,53 +539,6 @@ cushion against unforeseen expenses, promoting financial stability and preparedn
 
 * Based on the forecasted spending trajectory and historical variability, the recommended monthly budget is SGD 907.04, which
 includes a safety buffer of 50% to account for typical spending fluctuations.
-
-### Early Warning & Anomaly Detection
-
-To predict overspending in the future based on the trends
-
-
-#### SARIMA Residuals Over Time
-
-<p align='center'><img src='ASSETS/PLOTS/SARIMA_RESIDUALS_LINE_EARLY_WARNING.png'></p>
-
-* Residuals oscillate randomly around zero, suggesting that the SARIMA model has adequately captured trend and seasonal dynamics.
-Isolated spikes indicate potential anomalous months rather than systematic model bias.
-
-
-#### Distribution of SARIMA Residuals (Non-normalised)
-
-<p align='center'><img src='ASSETS/PLOTS/SARIMA_RESIDUALS_HISTOGRAM_EARLY_WARNING.png'></p>
-
-* The residual distribution is concentrated around zero, with most errors within ±200, indicating good predictive accuracy for
-typical months. Larger residuals at the extremes reflect occasional atypical spending events rather than systematic model failure.
-
-
-#### QQ Plot of SARIMA Residuals
-
-<p align='center'><img src='ASSETS/PLOTS/SARIMA_RESIDUALS_QQ_PLOT_EARLY_WARNING.png'></p>
-
-* The QQ plot shows good alignment with the normal distribution in the central region, with increasing deviation at the tails. This
-indicates the presence of occasional extreme values, which is typical in financial expense data.
-
-
-#### Auto-correlation of SARIMA Residuals
-
-<p align='center'><img src='ASSETS/PLOTS/SARIMA_RESIDUALS_ACF_EARLY_WARNING.png'></p>
-
-* Aside from the trivial lag-0 autocorrelation, residual auto-correlations decay rapidly and remain within statistical bounds,
-indicating no remaining time-dependent structure.
-
-
-#### SARIMA Forecast of Monthly Expenses
-
-<p align='center'><img src='ASSETS/PLOTS/SARIMA_FORECAST_EARLY_WARNING.png'></p>
-
-* Given historical data and model assumptions, there is a 95.0% probability that actual expenses will fall within this range. If an
-actual monthly expense exceeds the upper bound, it signals potential overspending requiring attention, while staying below the
-lower bound indicates underspending. The widening confidence interval reflects increasing uncertainty over longer forecast
-horizons, underscoring the need for regular forecast updates as new data becomes available.
-
 
 ---
 
