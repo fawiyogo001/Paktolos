@@ -657,12 +657,75 @@
     "path": null
   },
   {
+    "reporting_tag": "ZSCORE_ANOMALY_DETECTION.png",
+    "title": "Forecast Error Distribution & Patterns",
+    "type": "figure",
+    "heading": "h4",
+    "body": "point",
+    "content": " Analysis of forecast error distribution reveals the nature of prediction uncertainty. The left panel shows error distribution\nagainst a normal curve, testing the assumption that forecast errors follow a symmetric, bell-shaped pattern. Deviations from\nnormality, particularly in the tails, indicate the presence of outliers or skewed prediction errors. The right panel examines\nwhether forecast accuracy varies with spending level (heteroscedasticity). A flat trend line around zero suggests consistent\naccuracy across all spending magnitudes, while a sloped trend indicates systematic over or under-prediction at different expense\nlevels. This diagnostic helps identify whether model adjustments or stratified forecasting approaches are needed.",
+    "path": "ASSETS/PLOTS/ZSCORE_ANOMALY_DETECTION.png"
+  },
+  {
     "reporting_tag": "ANOMALY_DETECTION_ZSCORE_SUMMARY_BODY_1",
     "title": null,
     "type": "text",
     "heading": "normal",
     "body": "point",
     "content": "Using Z-score threshold of 1.5 since the maximum observed Z-score is 1.91, which indicates that there are significant deviations\nin the residuals. A threshold of 1.5 standard deviations effectively captures these anomalies while minimizing false positives.\nThis threshold balances sensitivity and specificity, ensuring that genuine anomalies are detected without overwhelming the system\nwith false alarms. In this case, the months identified as anomalies based on Z-score analysis are: Jan 2023, Dec 2023.",
+    "path": null
+  },
+  {
+    "reporting_tag": "IQR_ANOMALY_DETECTION.png",
+    "title": "IQR-Based Anomaly Detection",
+    "type": "figure",
+    "heading": "h4",
+    "body": "point",
+    "content": " IQR-based anomaly detection uses the interquartile range (Q1=$665.70, Q3=$780.95, IQR=$115.25) to define normal spending\nboundaries. The upper fence ($953.82) and lower fence ($492.83) are set at 1.5\u00d7 IQR beyond Q1 and Q3 respectively, following\nstandard statistical outlier detection conventions. The time series panel shows spending against these thresholds, with shaded\nregions indicating normal (teal) and caution (yellow) zones. The box plot confirms the spending distribution's central tendency\nand spread, while the histogram reveals the frequency distribution relative to IQR boundaries. This method is robust to non-normal\ndistributions and complements the CI-based detection by focusing on the actual spending distribution rather than model\npredictions.",
+    "path": "ASSETS/PLOTS/IQR_ANOMALY_DETECTION.png"
+  },
+  {
+    "reporting_tag": "ANOMALY_DETECTION_IQR_SUMMARY_BODY_1",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "point",
+    "content": "By applying the IQR method, we have established robust bounds for normal spending behavior based on historical data distribution.\nThe calculated lower bound is 492.83 and the upper bound is 953.82. Any actual monthly expense falling outside these bounds is\nflagged as an anomaly, indicating significant deviations from typical spending patterns. The months identified as anomalies based\non IQR analysis are: Dec 2023.",
+    "path": null
+  },
+  {
+    "reporting_tag": "MA_ANOMALY_DETECTION.png",
+    "title": "Moving Average (3-Month) Anomaly Detection",
+    "type": "figure",
+    "heading": "h4",
+    "body": "point",
+    "content": " Moving average anomaly detection uses a 3-month centered rolling average to establish dynamic spending baselines, adapting to\ngradual trend changes rather than using fixed static thresholds. The teal shaded envelope represents the \u00b125% normal deviation\nband around the moving average. The absence of MA-detected anomalies is a meaningful finding: while CI-based and Z-score methods\nflagged isolated monthly spikes, the moving average confirms these were brief, self-correcting deviations rather than sustained\ntrend shifts. This distinction is important for financial monitoring as it suggests the anomalies did not alter the underlying\nspending trajectory. The deviation panel (bottom) quantifies month-to-month volatility relative to the rolling baseline, providing\nadditional context for spending rhythm and consistency.",
+    "path": "ASSETS/PLOTS/MA_ANOMALY_DETECTION.png"
+  },
+  {
+    "reporting_tag": "ANOMALY_DETECTION_MA_SUMMARY_BODY_1",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "point",
+    "content": "By analyzing deviations from the 3-month moving average, we have identified months where spending significantly diverged from\nrecent trends. A threshold of 25% deviation effectively captures these anomalies, highlighting periods of unusual spending\nbehavior. The months identified as anomalies based on moving average deviation analysis are: Feb 2023, Mar 2023, Apr 2023, May\n2023, Jun 2023, Jul 2023, Aug 2023, Sep 2023, Oct 2023, Nov 2023.",
+    "path": null
+  },
+  {
+    "reporting_tag": "ANOMALY_DETECTION_SUMMARY_TABLE.png",
+    "title": "Detected Anomalies - Detailed Analysis",
+    "type": "figure",
+    "heading": "h4",
+    "body": "point",
+    "content": " Comprehensive breakdown of detected expense anomalies during back-testing period. Each anomalous month is characterized by actual\nspending, model forecast, confidence interval bounds, deviation magnitude, and classified by type (overspending vs underspending)\nand severity (mild/moderate/severe). Color coding highlights overspending (red) and underspending (green) patterns. The error\ncolumn quantifies dollar deviation from forecast, while deviation percentage enables comparison across different spending levels.\nThis granular analysis facilitates investigation into root causes and informs budget adjustment strategies.",
+    "path": "ASSETS/PLOTS/ANOMALY_DETECTION_SUMMARY_TABLE.png"
+  },
+  {
+    "reporting_tag": "ANOMALY_DETECTION_CONSENSUS_SUMMARY_BODY_1",
+    "title": null,
+    "type": "text",
+    "heading": "normal",
+    "body": "point",
+    "content": "Anomalies confirmed by multiple detection methods provide higher confidence in their validity. By requiring consensus from at\nleast two independent techniques, we mitigate the risk of false positives inherent in any single method. This multi-faceted\napproach ensures that flagged anomalies represent genuine deviations from expected spending patterns, warranting further\ninvestigation. The months identified as consensus anomalies are: Jan 2023, Dec 2023.",
     "path": null
   },
   {
