@@ -1,6 +1,6 @@
 # Data Analysis Report
 
-Report generated on: 12/02/2026 01:29:51
+Report generated on: 17/02/2026 23:39:10
 
 Because GitHub is unable to display Plotly interactive figures, a dynamic report is generated to compile each figure along with their respective captions.
 
@@ -497,7 +497,7 @@ trade-off is increased forecast variance, but for early warning systems, respons
 To predict overspending in the future based on the trends
 
 
-* Backtesting serves as our primary anomaly detection method. By performing  rolling-window forecasts and comparing predictions to
+* Back-testing serves as our primary anomaly detection method. By performing  rolling-window forecasts and comparing predictions to
 actual values, we can: 1. Identify months where actual spending falls outside predicted confidence intervals 2. Ensure anomalies
 are detected based on historical patterns, not one-time model fit 3. Validate detection robustness across different time periods
 Anomalies are flagged when actual expenses fall outside the 95% confidence interval of the SARIMA forecast.
@@ -586,6 +586,56 @@ This granular analysis facilitates investigation into root causes and informs bu
 least two independent techniques, we mitigate the risk of false positives inherent in any single method. This multi-faceted
 approach ensures that flagged anomalies represent genuine deviations from expected spending patterns, warranting further
 investigation. The months identified as consensus anomalies are: Jan 2023, Dec 2023.
+
+#### Early Warning System - Alert Threshold Definitions
+
+<p align='center'><img src='ASSETS/PLOTS/EARLY_WARNING_THRESHOLD_DEFINITION.png'></p>
+
+* The early warning system defines four alert tiers based on SARIMA confidence interval boundaries and historical spending
+patterns. The GREEN zone represents normal spending within the 95% confidence interval, requiring no intervention. YELLOW caution
+alerts trigger when spending deviates 1.0-1.25x beyond CI bounds, signalling the need for closer monitoring. ORANGE warnings
+indicate moderate anomalies (1.25-1.5x beyond CI) requiring active investigation and corrective action. RED critical alerts fire
+for severe deviations beyond 1.5x CI boundaries, demanding immediate budget review. Reference thresholds are calculated from the
+average forecast of $709.66 and average CI width of $405.10, with dynamic thresholds recalculated monthly based on current SARIMA
+forecasts.
+
+
+#### Early Warning System - Retrospective Alert Simulation (2018-2023)
+
+<p align='center'><img src='ASSETS/PLOTS/EARLY_WARNING_RETROSPECTIVE_SIMULATION.png'></p>
+
+* Retrospective simulation of the early warning system across the full 2018-2023 period demonstrates its practical effectiveness.
+The main panel overlays actual spending against SARIMA forecasts and confidence intervals, with color-coded markers indicating
+alert levels triggered each month. The alert timeline (middle) provides a clear temporal view of system status, revealing the
+frequency and clustering of elevated alerts. The distribution chart (bottom) summarises alert frequency: the majority of months
+fall within the GREEN normal zone, validating overall spending predictability. YELLOW and ORANGE alerts highlight months requiring
+closer attention, while RED critical alerts correspond directly to the consensus anomalies identified in section 3.1. This
+retrospective validation confirms the early warning system would have successfully flagged genuine anomalies while maintaining a
+low false positive rate across the observation period.
+
+
+#### Early Warning System - 24-Month Forward Monitoring Framework
+
+<p align='center'><img src='ASSETS/PLOTS/EARLY_WARNING_FORWARD_MONITORING.png'></p>
+
+* The forward-looking monitoring framework extends the SARIMA model"s predictive capability into a 24-month horizon beyond the
+observation period, establishing actionable alert zones for future expense monitoring. Four color-coded zones define expected
+spending ranges: GREEN (normal, within 95.0% CI), YELLOW (caution, 1.0-1.25x beyond CI), ORANGE (warning, 1.25-1.5x beyond CI),
+and RED (critical, beyond 1.5x CI). The historical context panel (last 24 months) anchors the forecast to recent spending
+patterns, providing continuity between observed and predicted behavior. The uncertainty panel (bottom) reveals how forecast
+confidence degrades over the 12-month horizon - wider confidence intervals in later months reflect increasing uncertainty, which
+is expected and should inform more conservative budget buffers for longer planning horizons. This framework provides a practical
+monthly monitoring guide: at each month-end, compare actual spending to the forecast zones to determine if intervention is
+required.
+
+
+#### Early Warning System - Summary
+
+<p align='center'><img src='ASSETS/PLOTS/EARLY_WARNING_SUMMARY_TABLE.png'></p>
+
+* Summary of the early warning system components, validation results, and forward monitoring framework designed to support
+proactive expense management beyond the 2018-2023 observation period.
+
 
 ### Budget Recommendation
 
