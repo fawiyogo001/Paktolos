@@ -1,6 +1,6 @@
 # Data Analysis Report
 
-Report generated on: 17/02/2026 23:39:10
+Report generated on: 19/02/2026 00:25:43
 
 Because GitHub is unable to display Plotly interactive figures, a dynamic report is generated to compile each figure along with their respective captions.
 
@@ -635,6 +635,40 @@ required.
 
 * Summary of the early warning system components, validation results, and forward monitoring framework designed to support
 proactive expense management beyond the 2018-2023 observation period.
+
+
+### Forecast Error Analysis
+
+To study the errors from the model
+
+
+#### Forecast Error Decomposition Analysis
+
+<p align='center'><img src='ASSETS/PLOTS/FORECAST_ERROR_ANALYSIS_ERROR_DECOMPOSITION_ANALYSIS.png'></p>
+
+* Comprehensive error decomposition reveals the SARIMA model"s prediction characteristics and failure modes. The error distribution
+(top-left) shows unbiased - no systematic over/under prediction, with mean error of $-5.21 and standard deviation of $143.00.
+Deviation from the normal curve indicates the presence of outlier predictions. The heteroscedasticity plot (top-right) examines
+whether forecast accuracy varies with spending level - a flat trend around zero suggests consistent accuracy across all
+magnitudes, while slope indicates systematic patterns. The cumulative error chart (bottom-left) tracks total prediction drift over
+time, revealing whether errors compound or self-correct. The magnitude timeline (bottom-right) identifies when the model struggles
+most, with red bars indicating overspending (underprediction) and teal bars showing underspending (overprediction). Error skewness
+of -0.23 and kurtosis of -0.20 characterize the distribution"s shape and tail behavior.
+
+
+#### Temporal & Seasonal Error Pattern Analysis
+
+<p align='center'><img src='ASSETS/PLOTS/FORECAST_ERROR_ANALYSIS_TEMPORAL_SEASONAL_ERROR_PATTERNS.png'></p>
+
+* Temporal decomposition of forecast errors reveals systematic patterns in model performance across the 2023 backtesting period.
+Monthly analysis (top-left) identifies seasonal forecasting challenges, with December showing the highest directional bias. Mean
+Absolute Error by month (top-right) quantifies prediction accuracy regardless of direction, with December exhibiting the largest
+average error magnitude ($267.04), potentially indicating seasonal spending patterns not fully captured by the SARIMA model.
+Quarterly aggregation (bottom-left) smooths noise to reveal broader seasonal trends, with Q4 showing the most challenging forecast
+period. The error evolution timeline (bottom-right) tracks prediction performance chronologically throughout 2023, comparing
+signed errors (showing bias direction) against absolute errors (showing magnitude). Divergence between these lines indicates
+periods of consistent over or underprediction, while convergence suggests more symmetric error patterns. Horizontal dashed lines
+mark average error levels for reference.
 
 
 ### Budget Recommendation
