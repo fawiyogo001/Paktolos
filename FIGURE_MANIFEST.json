@@ -862,5 +862,14 @@
     "body": "point",
     "content": " Monthly budget allocation guidance accounts for seasonal spending patterns identified through SARIMA forecasting. The stacked\nbars represent budget flexibility zones: the Conservative layer (teal) provides a safety buffer for unexpected expenses, while the\nTarget range (blue) narrows to the model\"s predicted spending. The SARIMA forecast line (pink diamonds) shows expected spending\ntrajectory, revealing higher expenditure periods in January, October and lower spending in September, November. The Optimized\ntarget (green dots) maintains a consistent efficiency goal across all months. Seasonal variance of $19.10 (2.7% of monthly\naverage) indicates material spending fluctuation throughout the year, suggesting the need for month-specific budget planning\nrather than uniform annual allocation. This granular guidance enables proactive budget adjustments aligned with predictable\nseasonal patterns.",
     "path": "ASSETS/PLOTS/MONTHLY_BUDGET_GUIDANCE.png"
+  },
+  {
+    "reporting_tag": "DECISION_TREE_BUDGET_REVIEW.png",
+    "title": "Decision Tree - Monthly Budget Review Protocol",
+    "type": "figure",
+    "heading": "h4",
+    "body": "point",
+    "content": " The decision tree provides a structured protocol for monthly spending review and response. At month-end, actual spending is\nevaluated against the four budget tiers established previously Green status (within Target budget) requires only routine monthly\nreview with no intervention. Yellow status (between Target and Moderate budgets) triggers weekly monitoring and category-level\nanalysis to identify spending drivers. Orange status (between Moderate and Conservative budgets) necessitates immediate cutbacks\nand daily expense tracking. Red status (exceeding all budgets) demands emergency review and real-time spending monitoring. This\ntiered response system ensures intervention intensity scales appropriately with spending deviation magnitude, preventing both\noverreaction to minor variances and under-response to serious budget breaches.",
+    "path": "ASSETS/PLOTS/DECISION_TREE_BUDGET_REVIEW.png"
   }
 ]
