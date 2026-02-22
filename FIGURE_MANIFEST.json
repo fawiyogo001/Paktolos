@@ -810,6 +810,33 @@
     "path": "ASSETS/PLOTS/FORECAST_ERROR_ANALYSIS_CI_COVERAGE_ANALYSIS.png"
   },
   {
+    "reporting_tag": "PREDICTIVE_AND_PRESCRIPTIVE_SCENARIO_SIMULATION",
+    "title": "Scenario Simulation",
+    "type": "text",
+    "heading": "h3",
+    "body": "normal",
+    "content": "To simulate the what if scenarios",
+    "path": null
+  },
+  {
+    "reporting_tag": "SCENARIO_SIMULATION_WHATIF_ANALYSIS.png",
+    "title": "Scenario Simulation - What-If Analysis",
+    "type": "figure",
+    "heading": "h4",
+    "body": "point",
+    "content": " What-if scenario analysis projects the financial impact of various spending adjustments over a 12-month horizon. The baseline\nscenario ($8,509 annually) represents continuation of current patterns. The optimization scenario (-10%) demonstrates that modest\nspending discipline could save $851 annually. Income reduction (-20%) and austerity (-30%) scenarios model necessary adjustments\nduring financial hardship, showing required cutbacks of $1,702 and $2,553 respectively. The lifestyle inflation scenario (+15%)\nquantifies the cost of increased spending ($1,276 additional), while the major expense scenario illustrates impact of one-time\nevents. Monthly projections (top-left) show spending trajectories, cumulative charts (top-right) reveal total financial commitment\nover time, and the comparison bar chart (bottom-left) enables direct scenario evaluation. This analysis supports data-driven\nbudgeting decisions by quantifying the consequences of different financial choices.",
+    "path": "ASSETS/PLOTS/SCENARIO_SIMULATION_WHATIF_ANALYSIS.png"
+  },
+  {
+    "reporting_tag": "SENSITIVITY_ANALYSIS_SPENDING_ADJUSTMENTS.png",
+    "title": "Sensitivity Analysis - Impact of Spending Adjustments",
+    "type": "figure",
+    "heading": "h4",
+    "body": "point",
+    "content": " Sensitivity analysis quantifies the linear relationship between spending adjustments and annual budget impact across a -40% to\n+30% range. The left panel demonstrates that annual spending scales predictably with adjustment percentage - each 5% spending\nreduction yields approximately $425 in annual savings. Key reference points are annotated: a -20% adjustment (income reduction\nscenario) saves $1,701.77 annually, while a +15% increase (lifestyle inflation) adds $1,276.33. The right panel visualizes this\nrelationship as savings/costs relative to baseline, with green bars indicating savings and red bars showing increased spending.\nThis analysis reveals that achieving a $1,000 annual savings target requires approximately -10.0% spending reduction, providing\nconcrete guidance for budget goal setting.",
+    "path": "ASSETS/PLOTS/SENSITIVITY_ANALYSIS_SPENDING_ADJUSTMENTS.png"
+  },
+  {
     "reporting_tag": "PREDICTIVE_AND_PRESCRIPTIVE_BUDGET_RECOMMENDATION",
     "title": "Budget Recommendation",
     "type": "text",
