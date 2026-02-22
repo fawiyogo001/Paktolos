@@ -846,21 +846,21 @@
     "path": null
   },
   {
-    "reporting_tag": "PREDICTIVE_AND_PRESCRIPTIVE_BUDGET_RECOMMENDATION.png",
-    "title": "Monthly Expenses with Budget Recommendation",
+    "reporting_tag": "BUDGET_RECOMMENDATIONS_TIERED.png",
+    "title": "Budget Recommendations - Tiered Approach",
     "type": "figure",
     "heading": "h4",
     "body": "point",
-    "content": " The budget recommendation is derived from the ETS forecast of monthly expenses, adjusted by a safety buffer of 50% to account for\nvariability in spending. This approach ensures that the recommended budget not only reflects expected costs but also provides a\ncushion against unforeseen expenses, promoting financial stability and preparedness.",
-    "path": "ASSETS/PLOTS/PREDICTIVE_AND_PRESCRIPTIVE_BUDGET_RECOMMENDATION.png"
+    "content": " The tiered budget framework provides four evidence-based spending targets tailored to different financial priorities and risk\ntolerances. The Conservative budget ($969/month) sets the upper bound at the SARIMA 95% confidence interval, ensuring coverage of\ntypical spending variability with minimal overage risk - ideal for irregular income or conservative financial planning. The\nModerate budget ($717/month) adds one standard deviation to the forecast mean, balancing protection against volatility with\nreasonable constraint. The Target budget ($709/month) represents the model\"s best prediction of necessary spending, serving as an\naspirational goal. The Optimized budget ($638/month) incorporates a 10% efficiency target, achievable through category-level\ndiscipline and waste elimination. The 12-month projection (bottom-left) visualizes these tiers against the SARIMA forecast, with\nthe shaded range representing the full spectrum of recommended budgets. Annual totals range from $7,658 to $11,628, offering\nflexibility based on financial goals and circumstances.",
+    "path": "ASSETS/PLOTS/BUDGET_RECOMMENDATIONS_TIERED.png"
   },
   {
-    "reporting_tag": "BUDGET_RECOMMENDATION_SUMMARY_BODY_1",
-    "title": null,
-    "type": "text",
-    "heading": "normal",
+    "reporting_tag": "MONTHLY_BUDGET_GUIDANCE.png",
+    "title": "Month-by-Month Budget Guidance",
+    "type": "figure",
+    "heading": "h4",
     "body": "point",
-    "content": "Based on the forecasted spending trajectory and historical variability, the recommended monthly budget is SGD 907.04, which\nincludes a safety buffer of 50% to account for typical spending fluctuations.",
-    "path": null
+    "content": " Monthly budget allocation guidance accounts for seasonal spending patterns identified through SARIMA forecasting. The stacked\nbars represent budget flexibility zones: the Conservative layer (teal) provides a safety buffer for unexpected expenses, while the\nTarget range (blue) narrows to the model\"s predicted spending. The SARIMA forecast line (pink diamonds) shows expected spending\ntrajectory, revealing higher expenditure periods in January, October and lower spending in September, November. The Optimized\ntarget (green dots) maintains a consistent efficiency goal across all months. Seasonal variance of $19.10 (2.7% of monthly\naverage) indicates material spending fluctuation throughout the year, suggesting the need for month-specific budget planning\nrather than uniform annual allocation. This granular guidance enables proactive budget adjustments aligned with predictable\nseasonal patterns.",
+    "path": "ASSETS/PLOTS/MONTHLY_BUDGET_GUIDANCE.png"
   }
 ]
