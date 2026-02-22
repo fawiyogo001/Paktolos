@@ -846,30 +846,39 @@
     "path": null
   },
   {
-    "reporting_tag": "BUDGET_RECOMMENDATIONS_TIERED.png",
+    "reporting_tag": "BUDGET_RECOMMENDATIONS_TIERED_APPROACH.png",
     "title": "Budget Recommendations - Tiered Approach",
     "type": "figure",
     "heading": "h4",
     "body": "point",
     "content": " The tiered budget framework provides four evidence-based spending targets tailored to different financial priorities and risk\ntolerances. The Conservative budget ($969/month) sets the upper bound at the SARIMA 95% confidence interval, ensuring coverage of\ntypical spending variability with minimal overage risk - ideal for irregular income or conservative financial planning. The\nModerate budget ($717/month) adds one standard deviation to the forecast mean, balancing protection against volatility with\nreasonable constraint. The Target budget ($709/month) represents the model\"s best prediction of necessary spending, serving as an\naspirational goal. The Optimized budget ($638/month) incorporates a 10% efficiency target, achievable through category-level\ndiscipline and waste elimination. The 12-month projection (bottom-left) visualizes these tiers against the SARIMA forecast, with\nthe shaded range representing the full spectrum of recommended budgets. Annual totals range from $7,658 to $11,628, offering\nflexibility based on financial goals and circumstances.",
-    "path": "ASSETS/PLOTS/BUDGET_RECOMMENDATIONS_TIERED.png"
+    "path": "ASSETS/PLOTS/BUDGET_RECOMMENDATIONS_TIERED_APPROACH.png"
   },
   {
-    "reporting_tag": "MONTHLY_BUDGET_GUIDANCE.png",
+    "reporting_tag": "BUDGET_RECOMMENDATIONS_MONTHLY_BUDGET_GUIDANCE.png",
     "title": "Month-by-Month Budget Guidance",
     "type": "figure",
     "heading": "h4",
     "body": "point",
     "content": " Monthly budget allocation guidance accounts for seasonal spending patterns identified through SARIMA forecasting. The stacked\nbars represent budget flexibility zones: the Conservative layer (teal) provides a safety buffer for unexpected expenses, while the\nTarget range (blue) narrows to the model\"s predicted spending. The SARIMA forecast line (pink diamonds) shows expected spending\ntrajectory, revealing higher expenditure periods in January, October and lower spending in September, November. The Optimized\ntarget (green dots) maintains a consistent efficiency goal across all months. Seasonal variance of $19.10 (2.7% of monthly\naverage) indicates material spending fluctuation throughout the year, suggesting the need for month-specific budget planning\nrather than uniform annual allocation. This granular guidance enables proactive budget adjustments aligned with predictable\nseasonal patterns.",
-    "path": "ASSETS/PLOTS/MONTHLY_BUDGET_GUIDANCE.png"
+    "path": "ASSETS/PLOTS/BUDGET_RECOMMENDATIONS_MONTHLY_BUDGET_GUIDANCE.png"
   },
   {
-    "reporting_tag": "DECISION_TREE_BUDGET_REVIEW.png",
+    "reporting_tag": "PREDICTIVE_AND_PRESCRIPTIVE_DECISION_PLAYBOOK",
+    "title": "Decision Playbook",
+    "type": "text",
+    "heading": "h3",
+    "body": "normal",
+    "content": "To have a clear action table on each outcome",
+    "path": null
+  },
+  {
+    "reporting_tag": "DECISION_PLAYBOOK_DECISION_TREE_BUDGET_REVIEW.png",
     "title": "Decision Tree - Monthly Budget Review Protocol",
     "type": "figure",
     "heading": "h4",
     "body": "point",
     "content": " The decision tree provides a structured protocol for monthly spending review and response. At month-end, actual spending is\nevaluated against the four budget tiers established previously Green status (within Target budget) requires only routine monthly\nreview with no intervention. Yellow status (between Target and Moderate budgets) triggers weekly monitoring and category-level\nanalysis to identify spending drivers. Orange status (between Moderate and Conservative budgets) necessitates immediate cutbacks\nand daily expense tracking. Red status (exceeding all budgets) demands emergency review and real-time spending monitoring. This\ntiered response system ensures intervention intensity scales appropriately with spending deviation magnitude, preventing both\noverreaction to minor variances and under-response to serious budget breaches.",
-    "path": "ASSETS/PLOTS/DECISION_TREE_BUDGET_REVIEW.png"
+    "path": "ASSETS/PLOTS/DECISION_PLAYBOOK_DECISION_TREE_BUDGET_REVIEW.png"
   }
 ]

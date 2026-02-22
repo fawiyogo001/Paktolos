@@ -1,6 +1,6 @@
 # Data Analysis Report
 
-Report generated on: 23/02/2026 00:19:23
+Report generated on: 23/02/2026 00:43:26
 
 Because GitHub is unable to display Plotly interactive figures, a dynamic report is generated to compile each figure along with their respective captions.
 
@@ -737,7 +737,7 @@ To determine the recommended budget level for the future periods
 
 #### Budget Recommendations - Tiered Approach
 
-<p align='center'><img src='ASSETS/PLOTS/BUDGET_RECOMMENDATIONS_TIERED.png'></p>
+<p align='center'><img src='ASSETS/PLOTS/BUDGET_RECOMMENDATIONS_TIERED_APPROACH.png'></p>
 
 * The tiered budget framework provides four evidence-based spending targets tailored to different financial priorities and risk
 tolerances. The Conservative budget ($969/month) sets the upper bound at the SARIMA 95% confidence interval, ensuring coverage of
@@ -752,7 +752,7 @@ flexibility based on financial goals and circumstances.
 
 #### Month-by-Month Budget Guidance
 
-<p align='center'><img src='ASSETS/PLOTS/MONTHLY_BUDGET_GUIDANCE.png'></p>
+<p align='center'><img src='ASSETS/PLOTS/BUDGET_RECOMMENDATIONS_MONTHLY_BUDGET_GUIDANCE.png'></p>
 
 * Monthly budget allocation guidance accounts for seasonal spending patterns identified through SARIMA forecasting. The stacked
 bars represent budget flexibility zones: the Conservative layer (teal) provides a safety buffer for unexpected expenses, while the
@@ -762,6 +762,24 @@ target (green dots) maintains a consistent efficiency goal across all months. Se
 average) indicates material spending fluctuation throughout the year, suggesting the need for month-specific budget planning
 rather than uniform annual allocation. This granular guidance enables proactive budget adjustments aligned with predictable
 seasonal patterns.
+
+
+### Decision Playbook
+
+To have a clear action table on each outcome
+
+
+#### Decision Tree - Monthly Budget Review Protocol
+
+<p align='center'><img src='ASSETS/PLOTS/DECISION_PLAYBOOK_DECISION_TREE_BUDGET_REVIEW.png'></p>
+
+* The decision tree provides a structured protocol for monthly spending review and response. At month-end, actual spending is
+evaluated against the four budget tiers established previously Green status (within Target budget) requires only routine monthly
+review with no intervention. Yellow status (between Target and Moderate budgets) triggers weekly monitoring and category-level
+analysis to identify spending drivers. Orange status (between Moderate and Conservative budgets) necessitates immediate cutbacks
+and daily expense tracking. Red status (exceeding all budgets) demands emergency review and real-time spending monitoring. This
+tiered response system ensures intervention intensity scales appropriately with spending deviation magnitude, preventing both
+overreaction to minor variances and under-response to serious budget breaches.
 
 
 ---
