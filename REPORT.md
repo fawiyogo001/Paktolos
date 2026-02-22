@@ -1,6 +1,6 @@
 # Data Analysis Report
 
-Report generated on: 19/02/2026 00:25:43
+Report generated on: 22/02/2026 22:43:49
 
 Because GitHub is unable to display Plotly interactive figures, a dynamic report is generated to compile each figure along with their respective captions.
 
@@ -669,6 +669,33 @@ period. The error evolution timeline (bottom-right) tracks prediction performanc
 signed errors (showing bias direction) against absolute errors (showing magnitude). Divergence between these lines indicates
 periods of consistent over or underprediction, while convergence suggests more symmetric error patterns. Horizontal dashed lines
 mark average error levels for reference.
+
+
+#### Error Attribution & Failure Analysis
+
+<p align='center'><img src='ASSETS/PLOTS/FORECAST_ERROR_ANALYSIS_ERROR_ATTRIBUTION.png'></p>
+
+* Error attribution analysis identifies which months and error types dominate model failures. The magnitude distribution (top-left)
+categorizes errors by severity, revealing that 2 months (16.7%) experienced extreme errors exceeding $200. The top 10 errors chart
+(top-right) highlights the most challenging predictions, color-coded by direction (red=overspending, teal=underspending). The
+Pareto analysis (bottom-left) demonstrates error concentration: just 3 months (25.0% of the backtesting period) account for 80% of
+total squared error, indicating that prediction failures are concentrated in specific problematic months. The contribution
+timeline (bottom-right) identifies when errors occurred, with darker red bars highlighting months that disproportionately
+contributed to overall model error. This concentration analysis guides where deeper investigation into spending anomalies or model
+limitations is most needed.
+
+
+#### Confidence Interval Coverage Analysis
+
+<p align='center'><img src='ASSETS/PLOTS/FORECAST_ERROR_ANALYSIS_CI_COVERAGE_ANALYSIS.png'></p>
+
+* Confidence interval coverage analysis assesses the reliability of SARIMA"s uncertainty quantification. The model achieves 83.3%
+empirical coverage against the theoretical 95% target, falling short of expectations. The timeline (top-left) visualizes CI bands
+with actual spending, clearly marking the 2 months (16.7%) that violated bounds - 1 upper violations (overspending) and 1 lower
+violations (underspending). The CI width distribution (top-right) shows prediction uncertainty varies from $393 to $418, averaging
+$405 (57.4% of forecast). The scatter plot (bottom-left) examines whether CI width scales appropriately with forecast magnitude,
+with violations color-coded to reveal if failures occur during overconfident (narrow CI) predictions. The coverage gauge (bottom-
+right) provides at-a-glance assessment of overall CI calibration quality.
 
 
 ### Budget Recommendation
