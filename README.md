@@ -50,10 +50,12 @@ To create a high-quality, professional-grade exploratory data analysis (EDA) and
 ## Project Structure
 paktolos/ <br>
 │ <br>
+├── asset/ # pictures <br>
 ├── data/ # Raw and cleaned CSVs <br>
 ├── scripts/ # Data cleaning, EDA, and visualization functions <br>
 ├── notebooks/ # Main analysis and visualization <br>
 ├── outputs/ # Exported visualizations (optional) <br>
+├── REPORT.md/ # Automatically-generated report from the data analysis <br>
 ├── README.md <br>
 └── pyproject.toml <br>
 
@@ -64,7 +66,7 @@ paktolos/ <br>
 - <b>Geospatial heatmap</b> of expenses by MRT district in Singapore
 - <b>Statistical insight extraction</b> (outliers, skewness, kurtosis)
 - <b>Change point detection</b> using `ruptures` for trend breaks
-- <b>Data storytelling</b> with clean narratives and clear visual cues
+- <b>Data storytelling</b> with clean narratives and clear visual cues compiled in a form of a [Report](https://github.com/fawiyogo001/Paktolos/blob/main/REPORT.md)
 
 </div>
 
