@@ -21,6 +21,15 @@ To create a high-quality, professional-grade exploratory data analysis (EDA) and
 - Geospatial expense mapping by location (e.g. MRT stations & regions)
 - Cumulative surplus and resource flow
 - Statistical testing (e.g. Mann-Whitney U test) for behavioural insights
+- Year-on-Year (YoY) Comparison
+- Trend Break Detection
+- Time Series Decomposition & Forecast Foundations
+- Early Warning & Anomaly Detection
+- Forecast Error Analysis
+- Scenario Simulation
+- Budget Recommendation
+- Decision Playbook
+
 
 </div>
 
@@ -41,6 +50,7 @@ To create a high-quality, professional-grade exploratory data analysis (EDA) and
         - Scipy
         - Statsmodels
         - Ruptures
+        - Scikit-learn
 - IDE: 
     - Jupyter Notebooks (exploration, narrative, dashboard)
     - VSCode (code modularisation, data cleaning pipeline)
@@ -50,7 +60,7 @@ To create a high-quality, professional-grade exploratory data analysis (EDA) and
 ## Project Structure
 paktolos/ <br>
 │ <br>
-├── asset/ # pictures <br>
+├── asset/ # Pictures <br>
 ├── data/ # Raw and cleaned CSVs <br>
 ├── scripts/ # Data cleaning, EDA, and visualization functions <br>
 ├── notebooks/ # Main analysis and visualization <br>
@@ -102,10 +112,8 @@ poetry run jupyter notebook
 ## Future Improvements
 <div style="text-align: justify"> 
 
-- Time series forecasting (ARIMA, Prophet)
 - Anomaly detection using ML
 - Financial health scoring
-- Budgeting assistant or alerts
 
 </div>
 
